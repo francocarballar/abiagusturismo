@@ -8,8 +8,9 @@ function Header () {
   const [stateNavBar, setNavBar] = useState(false)
   const [stateMenu, setMenu] = useState(true)
   const [stateClose, setClose] = useState(false)
+  let body
   useEffect(() => {
-    const body = document.body
+    body = document.body
   })
   const clickMenu = () => {
     body.style = 'overflow-y: hidden'
@@ -19,9 +20,12 @@ function Header () {
     body.style.overflow = 'scroll'
     return setNavBar(false) || setClose(false) || setMenu(true)
   }
+  const label = {
+    zIndex: -100
+  }
   return (
     <React.Fragment>
-      <DarkMode />
+      <DarkMode styles={label} />
       <header className={styles.header} id='inicio'>
         <Link href='/'>
           <figure>

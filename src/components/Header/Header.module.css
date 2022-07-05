@@ -14,6 +14,7 @@
     width: auto;
     height: 3.5rem;
     border-radius: 10px;
+    cursor: url(/media/icon/pointer.png), auto;
 }
 
 .header svg {
@@ -21,7 +22,7 @@
     width: 2.5rem;
     height: 2.5rem;
     fill: white;
-    cursor: url(/public/media/icon/pointer.png), auto;
+    cursor: url(/media/icon/pointer.png), auto;
 }
 
 body.dark .header svg {

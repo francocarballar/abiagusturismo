@@ -4,8 +4,9 @@ import { NavBarLi } from '../NavBar__Li'
 import { DarkMode } from '../DarkMode'
 
 function NavBar ({ stateNavBar, setNavBar, setClose, setMenu }) {
+  let body
   useEffect(() => {
-    const body = document.body
+    body = document.body
   })
   const clickAncla = () => {
     body.style = 'overflow-y: scroll'
@@ -27,19 +28,16 @@ function NavBar ({ stateNavBar, setNavBar, setClose, setMenu }) {
     if (width >= 1024) {
       setNavBar(true)
     }
+    if (width < 1024) {
+    }
     console.log(stateWidth)
     window.addEventListener('resize', updateDimensions)
   })
-  const label = {
-    top: 5
-  }
   return (
     <React.Fragment>
       {stateNavBar && (
         <nav className={styles.nav}>
-          <DarkMode 
-            styles={label}
-          />
+          <DarkMode />
           <ul className={styles.nav__ul}>
             <NavBarLi text='Inicio' path='/' clickAncla={clickAncla} />
             <hr />

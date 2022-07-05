@@ -35,7 +35,7 @@ html {
   font-size: 62.5%;
   font-family: 'Roboto Condensed', sans-serif;
   background-color: var(--scrollbar-track__background-color);
-  cursor: url(/public/media/icon/default.png), auto;
+  cursor: url(/media/icon/default.png), auto;
 }
 
 html::-webkit-scrollbar {
@@ -64,11 +64,11 @@ body {
 }
 
 a {
-  cursor: url(/public/media/icon/pointer.png), auto;
+  cursor: url(/media/icon/pointer.png), auto;
 }
 
 input {
-  cursor: url(/public/media/icon/text-cursor.png), auto;
+  cursor: url(/media/icon/text-cursor.png), auto;
 }
 
 input::selection {
@@ -113,23 +113,23 @@ body.dark .toggle-dark-mode {
   width: 2.4rem;
   height: 2.4rem;
   background-color: #fff;
-  background-image: url("/media/icon/sun.svg");
+  background-image: url(/media/icon/sun.svg);
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50%;
   transition: left 0.5s, transform 0.5s;
-  cursor: pointer;
+  cursor: url(/media/icon/pointer.png), auto;
 }
 
 body.dark #theme {
   left: calc(100% - 2.4rem);
   background-color: var(--dark-text-color);
-  background-image: url("/media/icon/moon.svg");
+  background-image: url(/media/icon/moon.svg);
 }
 
 @media (min-width: 1024px) {
   .toggle-dark-mode  {
-      top: 15px;
+      top: 5px;
       right: 0;
       z-index: 1000;
   }
