@@ -1,0 +1,43 @@
+.toggle-dark-mode {
+  display: inline-block;
+  position: absolute;
+  right: 60px;
+  margin: 25px;
+  width: 4.2rem;
+  height: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+body.dark .toggle-dark-mode {
+  background-color: var(--dark-text-color);
+}
+
+#theme {
+  position: absolute;
+  top: -50%;
+  left: 0;
+  width: 2.4rem;
+  height: 2.4rem;
+  background-color: #fff;
+  background-image: url(/media/icon/sun.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  transition: left 0.5s, transform 0.5s;
+  cursor: url(/media/icon/pointer.png), auto;
+}
+
+body.dark #theme {
+  left: calc(100% - 2.4rem);
+  background-color: var(--dark-text-color);
+  background-image: url(/media/icon/moon.svg);
+}
+
+@media (min-width: 1024px) {
+  .toggle-dark-mode {
+    top: 5px;
+    right: 0;
+    z-index: 1000;
+  }
+}

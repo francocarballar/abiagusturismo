@@ -1,0 +1,191 @@
+.section__quienes_somos {
+  padding: 5px 25px 25px 25px;
+  background-color: var(--primary-color);
+}
+
+.section__quienes_somos p {
+  margin: 5px;
+  padding: 5px;
+  color: white;
+  font-size: var(--font-size__mobile);
+  line-height: 2.5rem;
+}
+
+.section__informacion_personal {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  padding: 0 25px;
+  background-color: var(--tertiary-color);
+  cursor: url(/media/icon/default__black.png), auto;
+}
+
+.informacion_personal__eliana_moreno {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.informacion_personal__eliana_moreno h2 {
+  margin: 5px;
+  padding: 5px;
+  font-size: 2.8rem;
+  font-weight: 400;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 1px;
+  color: var(--title-secondary);
+  text-shadow: none;
+}
+
+.informacion_personal__eliana_moreno h2::selection {
+  color: white;
+  background: var(--primary-color);
+}
+
+.informacion_personal__eliana_moreno h3 {
+  margin: 5px;
+  padding: 5px;
+  font-size: 1.8rem;
+  color: var(--secondary-color);
+}
+
+.informacion_personal__eliana_moreno h3::selection {
+  background: var(--primary-color);
+}
+
+.informacion_personal__eliana_moreno h4 {
+  margin: 5px;
+  padding: 5px;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: var(--secondary-color);
+}
+
+.informacion_personal__eliana_moreno h4::selection {
+  background: var(--primary-color);
+}
+
+.informacion_personal__eliana_moreno p {
+  margin: 5px;
+  padding: 5px;
+  font-size: var(--font-size__mobile);
+  line-height: 3rem;
+}
+
+.informacion_personal__eliana_moreno p::selection {
+  color: white;
+  background: var(--primary-color);
+}
+
+.informacion_personal__eliana_moreno a {
+  text-decoration: underline;
+  text-decoration-color: var(--secondary-color);
+}
+
+.informacion_personal__eliana_moreno .eliana_moreno__button_contactar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  margin-top: 20px;
+  padding: 5px;
+  width: 10rem;
+  height: 4rem;
+  border-radius: 1rem;
+  font-size: var(--font-size__mobile);
+  background-color: var(--secondary-color);
+  color: white;
+  text-shadow: 0.5px 0.5px 1px black;
+  box-shadow: 0rem 0.2rem 0.8rem 0.1rem rgb(0 0 0 / 60%);
+  cursor: pointer;
+  text-decoration: none;
+  cursor: url(/media/icon/pointer.png), auto;
+}
+
+.informacion_personal__eliana_moreno .eliana_moreno__button_contactar:hover {
+  color: white;
+  background-color: #c25008;
+  box-shadow: none;
+}
+
+.informacion_personal__eliana_moreno .eliana_moreno__button_contactar:active {
+  transform: scale(0.9);
+}
+
+.informacion_personal__imagen_eliana_moreno {
+  display: none;
+}
+
+.informacion_personal__imagen_eliana_moreno figure {
+  display: block;
+}
+
+.informacion_personal__imagen_eliana_moreno img {
+  display: block;
+}
+
+@media (min-width: 1024px) {
+  .section__quienes_somos {
+    padding: 5px 100px 25px 100px;
+  }
+
+  .section__quienes_somos p {
+    font-size: var(--font-size__laptop);
+    line-height: 2.5rem;
+  }
+
+  .section__informacion_personal {
+    padding: 0 100px;
+  }
+
+  .informacion_personal__eliana_moreno {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 50%;
+  }
+
+  .informacion_personal__eliana_moreno h2 {
+    font-size: 4rem;
+  }
+
+  .informacion_personal__eliana_moreno h3 {
+    font-size: 2.6rem;
+  }
+
+  .informacion_personal__eliana_moreno h4 {
+    font-size: 2rem;
+  }
+
+  .informacion_personal__eliana_moreno p {
+    font-size: var(--font-size__laptop);
+  }
+
+  .informacion_personal__imagen_eliana_moreno {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 19.8rem;
+    width: 50%;
+  }
+
+  .informacion_personal__imagen_eliana_moreno figure {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .informacion_personal__imagen_eliana_moreno img {
+    display: block;
+    width: 85%;
+    height: auto;
+  }
+}

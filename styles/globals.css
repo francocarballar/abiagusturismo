@@ -4,15 +4,15 @@
   --font-size__desktop: 4rem;
   --title-size__laptop: 5.5rem;
   --primary-color: #333367;
-  --secondary-color: #FE6402;
-  --tertiary-color: #D0CECE;
+  --secondary-color: #fe6402;
+  --tertiary-color: #d0cece;
   --text-color: #000;
   --title-secondary: #424040;
   --contact-text-color: #808080;
-  --button-whatsapp: #25D366;
+  --button-whatsapp: #25d366;
   --dark-primary-color: #1c1c3a;
   --dark-tertiary-color: #141429;
-  --dark-text-color: #C5D5E4;
+  --dark-text-color: #c5d5e4;
   --scroll-size: 10px;
   --scrollbar-thumb__background-color: #3f474d;
   --scrollbar-thum__hover: #333a3f;
@@ -91,46 +91,10 @@ body.dark li {
   color: white;
 }
 
-.toggle-dark-mode {
-  display: inline-block;
-  position: absolute;
-  right: 60px;
-  margin: 25px;
-  width: 4.2rem;
-  height: 1rem;
-  background-color: white;
-  border-radius: 1rem;
+body.dark .QuienesSomos_section__quienes_somos__sqEri {
+  background-color: var(--tertiary-color);
 }
 
-body.dark .toggle-dark-mode {
-  background-color: var(--dark-text-color);
-}
-
-#theme {
-  position: absolute;
-  top: -50%;
-  left: 0;
-  width: 2.4rem;
-  height: 2.4rem;
-  background-color: #fff;
-  background-image: url(/media/icon/sun.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
-  transition: left 0.5s, transform 0.5s;
-  cursor: url(/media/icon/pointer.png), auto;
-}
-
-body.dark #theme {
-  left: calc(100% - 2.4rem);
-  background-color: var(--dark-text-color);
-  background-image: url(/media/icon/moon.svg);
-}
-
-@media (min-width: 1024px) {
-  .toggle-dark-mode  {
-      top: 5px;
-      right: 0;
-      z-index: 1000;
-  }
+body.dark .TitleContainer_titleContainer__mQ_01 {
+  background-color: var(--tertiary-color);
 }
