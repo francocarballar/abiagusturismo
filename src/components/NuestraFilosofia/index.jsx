@@ -1,9 +1,9 @@
 import React from 'react'
-import './NuestraFilosofia.css'
+import styles from './NuestraFilosofia.module.css'
 
 function NuestraFilosofia () {
   return (
-    <section className='section__nuestra-filosofia'>
+    <section className={styles.section__nuestra_filosofia}>
       <h2>NUESTRA FILOSOFÍA</h2>
       <div>
         <p>

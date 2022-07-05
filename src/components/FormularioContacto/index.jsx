@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useForm } from '@formspree/react'
-import './FormularioContacto.css'
+import styles from './FormularioContacto.module.css'
 
 function FormularioContacto (props) {
   const [stateMessage, setMessage] = useState(false)
@@ -12,13 +12,13 @@ function FormularioContacto (props) {
     <React.Fragment>
       <form
         method='POST'
-        className='formulario'
+        className={styles.formulario}
         onSubmit={setHandleSubmit}
       >
         <label htmlFor='nombre'>
           <input
             type='text'
-            id='nombre'
+            id={styles.nombre}
             name='nombre'
             placeholder='Nombre'
             autoComplete='name'
@@ -28,7 +28,7 @@ function FormularioContacto (props) {
         <label htmlFor='correo'>
           <input
             type='email'
-            id='correo'
+            id={styles.correo}
             name='correo'
             placeholder='Email'
             autoComplete='email'
@@ -38,7 +38,7 @@ function FormularioContacto (props) {
         <label htmlFor='telefono'>
           <input
             type='tel'
-            id='telefono'
+            id={styles.telefono}
             name='telefono'
             placeholder='Teléfono'
             autoComplete='tel'
@@ -48,7 +48,7 @@ function FormularioContacto (props) {
         <label htmlFor='mensaje'>
           <textarea
             type='text'
-            id='mensaje'
+            id={styles.mensaje}
             name='mensaje'
             placeholder='Escribe tu mensaje aquí...'
             required
@@ -56,11 +56,11 @@ function FormularioContacto (props) {
             rows='4'
           ></textarea>
         </label>
-        <label htmlFor='enviar' className='label-enviar'>
-          {stateMessage && <p id='message-submit' style={messageSubmit}>¡Gracias por tu mensaje!</p>}
+        <label htmlFor='enviar' className={styles.label_enviar}>
+          {stateMessage && <p id={styles.message_submit} style={messageSubmit}>¡Gracias por tu mensaje!</p>}
           <input
             type='submit'
-            id='enviar'
+            id={styles.enviar}
             name='enviar'
             value='Enviar'
             disabled={stateHandleSubmit.submitting}

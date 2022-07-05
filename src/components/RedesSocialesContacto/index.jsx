@@ -1,10 +1,10 @@
 import React from 'react'
-import './RedesSocialesContacto.css'
+import styles from './RedesSocialesContacto.module.css'
 
 function RedesSocialesContacto () {
   return (
     <React.Fragment>
-      <div className='div__social-media'>
+      <div className={styles.div__social_media}>
         <ul>
           <li>
             <a

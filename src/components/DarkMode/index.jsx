@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react'
-import styles from './DarkMode.module.css'
+import React, { useEffect } from 'react'
 
 function DarkMode ({ styles }) {
   let body

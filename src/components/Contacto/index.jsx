@@ -1,5 +1,5 @@
 import React from 'react'
-import './Contacto.css'
+import styles from './Contacto.module.css'
 import { InformacionContacto } from '../InformacionContacto'
 import { RedesSocialesContacto } from '../RedesSocialesContacto'
 import { FormularioContacto } from '../FormularioContacto'
@@ -17,12 +17,12 @@ function Contacto (props) {
   }
   return (
     <React.Fragment>
-      <section className='section__contacto' style={sectionContacto}>
-        <div className='div__contacto--title' style={h2}>
+      <section className={styles.section__contacto} style={sectionContacto}>
+        <div className={styles.div__contacto_title} style={h2}>
           <h2>CONTACTO</h2>
         </div>
-        <div className='div__contacto' style={divContacto}>
-          <div className='div__container--contacto'>
+        <div className={styles.div__contacto} style={divContacto}>
+          <div className={styles.div__container_contacto}>
             <InformacionContacto />
             <RedesSocialesContacto />
           </div>

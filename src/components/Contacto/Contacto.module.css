@@ -9,7 +9,7 @@
     background-color: var(--primary-color);
 }
 
-.div__contacto--title {
+.div__contacto_title {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,19 +19,19 @@
     height: auto;
 }
 
-.div__contacto--title h2 {
+.div__contacto_title h2 {
     margin: 5px;
     padding: 5px;
     font-size: 3.2rem;
     color: var(--secondary-color);
 }
 
-.div__contacto--title h2::selection {
+.div__contacto_title h2::selection {
     color: var(--primary-color);
     background: var(--secondary-color);
 }
 
-.div__container--contacto {
+.div__container_contacto {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -51,7 +51,7 @@
 }
 
 @media (min-width: 768px) {
-    .div__container--contacto {
+    .div__container_contacto {
         width: 50%;
     }
 
@@ -62,12 +62,12 @@
 
 @media (min-width: 1024px) {
 
-    .div__contacto--title {
+    .div__contacto_title {
         padding-top: 25px;
         padding-bottom: 50px;
     }
 
-    .div__contacto--title h2 {
+    .div__contacto_title h2 {
         font-size: var(--title-size__laptop);
     }
 

@@ -14,7 +14,7 @@
     width: 80%;
 }
 
-input {
+.formulario input {
     width: 100%;
     padding: 5px 20px;
     font-size: var(--font-size__mobile);
@@ -23,11 +23,11 @@ input {
     border-color: transparent;
 }
 
-input:hover {
+.formulario input:hover {
     border: 2px solid var(--secondary-color);
 }
 
-input:focus {
+.formulario input:focus {
     border: 2px solid var(--secondary-color);
     outline: var(--secondary-color);
 }
@@ -42,7 +42,7 @@ input:focus {
     resize: none;
     border-radius: 5px;
     border-color: transparent;
-    cursor: url(../../assets/icon/text-cursor.png), auto;
+    cursor: url(/media/icon/text-cursor.png), auto;
 }
 
 #mensaje:hover {
@@ -58,7 +58,7 @@ input:focus {
     background: var(--secondary-color);
 }
 
-.label-enviar {
+.label_enviar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -66,7 +66,7 @@ input:focus {
     height: 3rem;
 }
 
-.label-enviar #message-submit {
+.label_enviar #message_submit {
     display: inline-block;
     margin: 0;
     padding: 0;
@@ -74,7 +74,7 @@ input:focus {
     color: white;
 }
 
-.label-enviar #message-submit::selection {
+.label_enviar #message_submit::selection {
     background: var(--secondary-color);
 }
 
@@ -92,7 +92,7 @@ input:focus {
     border-color: transparent;
     box-shadow: 0rem 0.2rem 0.8rem 0.1rem rgb(0 0 0 / 60%);
     text-shadow: 0.05rem 0.05rem 0.1rem black;
-    cursor: url(../../assets/icon/pointer.png), auto;
+    cursor: url(/media/icon/pointer.png), auto;
 }
 
 #enviar:hover {

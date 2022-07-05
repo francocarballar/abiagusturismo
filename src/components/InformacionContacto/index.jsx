@@ -1,10 +1,10 @@
 import React from 'react'
-import './InformacionContacto.css'
+import styles from './InformacionContacto.module.css'
 
 function InformacionContacto () {
   return (
     <React.Fragment>
-      <div className='container__informacion-contacto'>
+      <div className={styles.container__informacion_contacto}>
         <h3>Dirección</h3>
         <p>Av. Bandera de los Andes 3114, Mendoza, Argentina.</p>
         <h3>Email</h3>
