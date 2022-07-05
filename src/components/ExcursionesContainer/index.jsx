@@ -1,21 +1,24 @@
 import React from 'react'
-import './ExcursionesContainer.css'
-import { Link } from 'react-router-dom'
+import styles from './ExcursionesContainer.module.css'
+import Link from 'next/link'
 
 function ExcursionesContainer (props) {
   const hr = {
     display: props.displayHr
   }
   return (
-    <section className='section__excursiones'>
-      <div className='div__container-excursiones'>
+    <section className={styles.section__excursiones}>
+      <div className={styles.div__container_excursiones}>
         <div>
           <h3>{props.title}</h3>
           <p>
             {props.description}
-            <Link to={props.url} className='link' onClick={() => window.scrollTo(0, 0)}>
-              {' '}
-              Ver más...
+            <Link
+              href={props.url}
+              className={styles.link}
+              onClick={() => window.scrollTo(0, 0)}
+            >
+              <a>Ver más...</a>
             </Link>
           </p>
         </div>

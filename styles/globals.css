@@ -64,6 +64,8 @@ body {
 }
 
 a {
+  color: var(--secondary-color);
+  text-decoration: none;
   cursor: url(/media/icon/pointer.png), auto;
 }
 
