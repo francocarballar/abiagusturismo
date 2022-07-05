@@ -1,17 +1,13 @@
 import React from 'react'
 import '../styles/globals.css'
 import { Header } from '../src/components/Header'
+import { Footer } from '../src/components/Footer'
 import Head from 'next/head'
 
 function MyApp ({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <link
-          rel='icon'
-          href='/media/icon/favicon.ico'
-          onload="this.rel='stylesheet'"
-        />
         <meta charset='UTF-8' />
         <meta http-equiv='X-UA-Compatible' content='IE=edge' />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
@@ -25,6 +21,7 @@ function MyApp ({ Component, pageProps }) {
       </Head>
       <Header />
       <Component {...pageProps} />
+      <Footer />
     </>
   )
 }

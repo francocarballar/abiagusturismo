@@ -3,7 +3,8 @@
     align-items: center;
     justify-content: flex-end;
     position: absolute;
-    width: 100%;
+    right: 0;
+    width: calc(100% - 16rem);
     height: auto;
     margin-right: 15px;
     transition: all 100s ease-out;

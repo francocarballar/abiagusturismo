@@ -28,16 +28,18 @@ function Header () {
       <DarkMode styles={label} />
       <header className={styles.header} id='inicio'>
         <Link href='/'>
-          <figure>
-            <img
-              src='/media/logotipo/logo-abiagus.png'
-              rel='preload'
-              alt='Logotipo de la empresa Abiagus Turismo'
-              width='8.42rem'
-              height='3.5rem'
-              className={styles.logo}
-            />
-          </figure>
+          <a>
+            <figure>
+              <img
+                src='/media/logotipo/logo-abiagus.png'
+                rel='preload'
+                alt='Logotipo de la empresa Abiagus Turismo'
+                width='8.42rem'
+                height='3.5rem'
+                className={styles.logo}
+              />
+            </figure>
+          </a>
         </Link>
         {stateMenu && (
           <svg
