@@ -1,0 +1,51 @@
+.section__nuestra-filosofia {
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section__nuestra-filosofia h2 {
+    margin: 5px;
+    margin-bottom: 15px;
+    padding: 5px;
+    font-size: 3.2rem;
+    color: var(--secondary-color);
+}
+
+.section__nuestra-filosofia h2::selection {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+.section__nuestra-filosofia p {
+    margin: 5px;
+    padding: 5px 15px;
+    font-size: var(--font-size__mobile);
+    line-height: 3rem;
+    color: white;
+}
+
+.section__nuestra-filosofia p::selection {
+    background-color: var(--secondary-color);
+}
+
+@media (min-width: 1024px) {
+    .section__nuestra-filosofia {
+        padding: 45px;
+    }
+
+    .section__nuestra-filosofia h2 {
+        font-size: var(--title-size__laptop);
+    }
+
+    .section__nuestra-filosofia p {
+        margin-left: 70px;
+        margin-right: 70px;
+        font-size: var(--font-size__laptop);
+    }
+}

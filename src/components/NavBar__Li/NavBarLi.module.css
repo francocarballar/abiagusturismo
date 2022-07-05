@@ -1,0 +1,30 @@
+.li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5px 15px;
+    list-style-type: none;
+}
+
+.li a {
+    height: auto;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.li a:hover,
+.li a:active {
+    color: var(--secondary-color);
+    transition: all 0.3s ease-out;
+} 
+
+@media (min-width: 1024px) {
+    .li {
+        display: inline-block;
+        height: calc(50% - 12px);
+        text-align: center;
+    }
+}

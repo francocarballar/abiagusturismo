@@ -1,0 +1,41 @@
+.container__informacion-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 85%;
+}
+
+.container__informacion-contacto h3 {
+    margin: 5px;
+    padding: 5px;
+    font-size: 2rem;
+    color: var(--secondary-color);
+}
+
+.container__informacion-contacto h3::selection {
+    color: var(--primary-color);
+    background: var(--secondary-color);
+}
+
+.container__informacion-contacto p {
+    margin: 5px;
+    padding: 5px;
+    font-size: var(--font-size__mobile);
+    color: white;
+}
+
+.container__informacion-contacto p::selection {
+    background-color: var(--secondary-color);
+}
+
+@media (min-width: 1024px) {
+
+    .container__informacion-contacto h3 {
+        font-size: 2.8rem;
+    }
+
+    .container__informacion-contacto p {
+        font-size: var(--font-size__laptop);
+    }
+}
