@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './Reserva.css'
+import styles from './Reserva.module.css'
 import { useForm } from '@formspree/react'
 
 function Reserva ({ stateReserva, setReserva }) {
@@ -23,29 +23,29 @@ function Reserva ({ stateReserva, setReserva }) {
   return (
     <React.Fragment>
       {stateReserva && (
-        <div className='div-container'>
-          <section className='section__modal'>
+        <div className={styles.div_container}>
+          <section className={styles.section__modal}>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='24'
               height='24'
               viewBox='0 0 24 24'
-              className='close'
+              className={styles.close}
               onClick={setReserva}
             >
               <path
                 d='M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z'
-                className='close__path'
+                className={styles.close__path}
               />
             </svg>
             {stateConfirmation && (
-              <div className='div__confirmation'>
+              <div className={styles.div__confirmation}>
                 <p>¡Te enviamos un correo para confirmar tu reserva!</p>
               </div>
             )}
             <form
               method='POST'
-              className='formulario'
+              className={styles.formulario}
               onSubmit={setHandleSubmit}
             >
               <label htmlFor='nombre'>
@@ -113,10 +113,10 @@ function Reserva ({ stateReserva, setReserva }) {
               <label htmlFor='date'>
                 <input type='date' id='date' name='fecha de viaje' required />
               </label>
-              <label htmlFor='enviar' className='label-enviar'>
+              <label htmlFor='enviar' className={styles.label_enviar}>
                 <input
                   type='submit'
-                  id='enviar'
+                  id={styles.enviar}
                   name='enviar'
                   value='Enviar'
                   disabled={stateHandleSubmit.submitting}

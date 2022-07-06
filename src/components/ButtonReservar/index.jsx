@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import './ButtonReservar.css'
+import React, { useState, useEffect } from 'react'
+import styles from './ButtonReservar.module.css'
 import { Reserva } from '../Reserva'
 
 function ButtonReservar () {
@@ -34,15 +34,16 @@ function ButtonReservar () {
       setButton('static')
     }
   }
-  window.addEventListener('scroll', position)
-
+  useEffect(() => {
+    window.addEventListener('scroll', position)
+  })
   const [stateReserva, setReserva] = useState(false)
   return (
     <React.Fragment>
       <a
         target='_blank'
-        className='button-reserva'
-        id='button-whatsapp'
+        className={styles.button_reserva}
+        id={styles.button_whatsapp}
         style={button}
         onClick={() => setReserva(true)}
       >

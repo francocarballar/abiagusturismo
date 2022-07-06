@@ -1,0 +1,37 @@
+.button_reserva {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  margin-top: 20px;
+  padding: 10px 30px;
+  position: fixed;
+  top: 85vh;
+  width: auto;
+  height: 4rem;
+  border-radius: 1rem;
+  font-size: var(--font-size__mobile);
+  background-color: #98c1d9;
+  color: var(--dark-tertiary-color);
+  box-shadow: 0rem 0.2rem 0.8rem 0.1rem rgb(0 0 0 / 60%);
+  cursor: pointer;
+  text-decoration: none;
+  cursor: url('/media/icon/pointer.png'), auto;
+}
+.button_reserva:hover {
+  color: var(--dark-tertiary-color);
+  border: 2px solid var(--dark-tertiary-color);
+  box-shadow: none;
+}
+.button_reserva:active {
+  transform: scale(0.9);
+}
+
+@media (min-width: 1024px) {
+  .button_reserva {
+    width: 815px;
+    height: 6rem;
+    font-size: var(--font-size__laptop);
+    border-radius: 25px;
+  }
+}

@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import './ExcursionesIndividuales.css'
+import styles from './ExcursionesIndividuales.module.css'
 import { ButtonReservar } from '../ButtonReservar'
-import leftArrow from '../../assets/icon/left-arrow.svg'
-import rightArrow from '../../assets/icon/right-arrow.svg'
 
 function ExcursionesIndividuales (props) {
   const [indexImg, setIndexImg] = useState(0)
@@ -17,11 +15,12 @@ function ExcursionesIndividuales (props) {
     document.slider.src = img[indexImg]
   }
   let intervalo
-  useEffect(function () {
+  useEffect(() => {
     clearInterval(intervalo)
     intervalo = setInterval(changeImg, 4000)
   })
   const clickRightArrow = () => {
+    clearInterval(intervalo)
     if (indexImg < props.nroImages) {
       setIndexImg(indexImg + 1)
     } else {
@@ -30,6 +29,7 @@ function ExcursionesIndividuales (props) {
     document.slider.src = img[indexImg]
   }
   const clickLeftArrow = () => {
+    clearInterval(intervalo)
     if (indexImg <= props.nroImages && indexImg !== 0) {
       setIndexImg(indexImg - 1)
     } else if (indexImg === 0) {
@@ -45,20 +45,22 @@ function ExcursionesIndividuales (props) {
       clearInterval(intervalo)
     }
   }
-  window.addEventListener('scroll', windowScroll)
+  useEffect(() => {
+    window.addEventListener('scroll', windowScroll)
+  })
   return (
-    <section className='section__excursiones--individuales'>
+    <section className={styles.section__excursiones__individuales}>
       <h2>{props.title}</h2>
       <div>{props.p}</div>
       <div>
-        <ul className='ul'>{props.li}</ul>
+        <ul className={styles.ul}>{props.li}</ul>
       </div>
       <ButtonReservar />
-      <figure className='figure__container-slider'>
+      <figure className={styles.figure__container_slider}>
         <img
-          src={leftArrow}
+          src='/media/icon/left-arrow.svg'
           alt='flecha izquierda de color blanca'
-          id='left-arrow'
+          id={styles.left_arrow}
           onClick={clickLeftArrow}
         />
         <img
@@ -67,9 +69,9 @@ function ExcursionesIndividuales (props) {
           alt='slider con imágenes de las excursiones'
         />
         <img
-          src={rightArrow}
+          src='/media/icon/right-arrow.svg'
           alt='flecha derecha de color blanca'
-          id='right-arrow'
+          id={styles.right_arrow}
           onClick={clickRightArrow}
         />
       </figure>
