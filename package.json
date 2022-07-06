@@ -17,5 +17,18 @@
   },
   "devDependencies": {
     "standard": "^17.0.0"
-  }
+  },
+  "description": "Abiagus Turismo es una agencia de viajes que ofrece turismo local, nacional e internacional. Contratación de hoteles, transporte y excursiones en Mendoza, Argentia tales como: Alta Montaña, Bodegas, City Tour, Cacheuta, Valle de Uco, Villavicencio, Cañón del Atuel, y en San Rafael, Las Leñas y Los Reyunos.",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francocarballar/abiagusturismo.git"
+  },
+  "keywords": ["HTML", "CSS", "JavaScrip", "React", "Next"],
+  "author": "Franco Carballar <francocarballar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/francocarballar/abiagusturismo/issues"
+  },
+  "homepage": "https://github.com/francocarballar/abiagusturismo#readme"
 }
