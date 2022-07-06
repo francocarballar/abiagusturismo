@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import styles from '../../styles/CityTour.module.css'
 import { ExcursionesIndividuales } from '/src/components/ExcursionesIndividuales'
 
 export default function CityTour () {
@@ -59,7 +60,7 @@ export default function CityTour () {
                 último, visitamos fábrica de chocolates, con degustación.'
         />
       </Head>
-      <main className='main'>
+      <main className={styles.main}>
         <ExcursionesIndividuales
           title='CITY TOUR'
           p={

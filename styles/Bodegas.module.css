@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  background-color: var(--tertiary-color);
+  cursor: url(/media/icon/default__black.png), auto;
+}

@@ -42,7 +42,7 @@ function AltaMontaniaPage () {
               realmente único. Figuras caprichosas como El Museo de Cera, Los
               Jardines Colgantes, Los Monjes, El Búho y otras tantas que invitan
               a detenerse, a vivir el paisaje y a jugar con la imaginación en
-              todo momento.{' '}
+              todo momento.
             </p>
             <p>
               Luego de una sinuosa cuesta, y de atravesar el complejo

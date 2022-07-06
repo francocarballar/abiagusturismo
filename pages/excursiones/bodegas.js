@@ -1,8 +1,9 @@
 import React from 'react'
 import Head from 'next/head'
+import styles from '../../styles/Bodegas.module.css'
 import { ExcursionesIndividuales } from '/src/components/ExcursionesIndividuales'
 
-export default function CityTour () {
+export default function Bodegas () {
   const images = []
   images[0] = '/media/excursiones/bodegas/vinedos-al-atardecer.jpg'
   images[1] = '/media/excursiones/bodegas/vinedos-de-día.jpg'
@@ -45,7 +46,7 @@ export default function CityTour () {
                 riquezas de la provincia, "EL VINO"'
         />
       </Head>
-      <main className='main'>
+      <main className={styles.main}>
         <ExcursionesIndividuales
           title='BODEGAS'
           p={

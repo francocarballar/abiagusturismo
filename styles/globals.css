@@ -67,6 +67,10 @@ main {
   background-color: var(--tertiary-color);
 }
 
+body.dark main {
+  cursor: url(/media/icon/default.png), auto;
+}
+
 a {
   color: var(--secondary-color);
   text-decoration: none;
@@ -107,4 +111,18 @@ body.dark .QuienesSomos_section__quienes_somos__sqEri {
 
 body.dark .TitleContainer_titleContainer__mQ_01 {
   background-color: var(--tertiary-color);
+}
+
+body.dark #Villavicencio_ul__entradas__I8RSw {
+  color: #fff;
+}
+
+@media (min-width: 1024px) {
+  #Villavicencio_ul__entradas__I8RSw {
+    font-size: var(--font-size__laptop);
+  }
+}
+
+body.dark .ExcursionesContainer_section__excursiones__VsEJ9 {
+  cursor: url(/media/icon/default.png), auto;
 }
