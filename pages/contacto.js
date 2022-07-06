@@ -1,8 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
-import { TitleContainer } from '/src/components/TitleContainer'
-import { Contacto } from '/src/components/Contacto/index.jsx'
-import { MapaContacto } from '/src/components/MapaContacto'
+import { TitleContainer } from '../src/components/TitleContainer'
+import { Contacto } from '../src/components/Contacto/index.jsx'
+import { MapaContacto } from '../src/components/MapaContacto'
 
 export default function Servicios () {
   const color = 'var(--contact-text-color)'

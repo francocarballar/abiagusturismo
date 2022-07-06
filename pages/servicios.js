@@ -1,8 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
 import styles from '../styles/Servicios.module.css'
-import { TitleContainer } from '/src/components/TitleContainer'
-import { ExcursionesContainer } from '/src/components/ExcursionesContainer'
+import { TitleContainer } from '../src/components/TitleContainer'
+import { ExcursionesContainer } from '../src/components/ExcursionesContainer'
 
 export default function Servicios () {
   return (

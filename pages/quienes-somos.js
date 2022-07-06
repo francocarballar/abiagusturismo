@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import styles from '../styles/QuienesSomos.module.css'
-import { TitleContainer } from '/src/components/TitleContainer'
+import { TitleContainer } from '../src/components/TitleContainer'
 
 export default function QuinesSomos () {
   return (

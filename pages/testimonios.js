@@ -1,8 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
 import styles from '../styles/Testimonios.module.css'
-import { TitleContainer } from '/src/components/TitleContainer'
-import { Clientes } from '/src/components/Clientes'
+import { TitleContainer } from '../src/components/TitleContainer'
+import { Clientes } from '../src/components/Clientes'
 
 export default function Servicios () {
   return (
