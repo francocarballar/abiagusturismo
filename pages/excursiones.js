@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import styles from '../styles/Excursiones.module.css'
 import { TitleContainer } from '/src/components/TitleContainer'
 import { ExcursionesContainer } from '/src/components/ExcursionesContainer'
 
@@ -21,7 +22,7 @@ export default function Excursiones () {
             a la hora de viajar...'
         />
       </Head>
-      <main>
+      <main className={styles.main}>
         <TitleContainer title='EXCURSIONES' />
         <ExcursionesContainer
           title='CITY TOUR'

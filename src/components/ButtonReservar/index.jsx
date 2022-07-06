@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
+import { useEventListener } from 'usehooks-ts'
 import styles from './ButtonReservar.module.css'
 import { Reserva } from '../Reserva'
 
@@ -7,7 +8,7 @@ function ButtonReservar () {
   const button = {
     position: stateButton
   }
-  function position () {
+  function positionFixed () {
     if (window.innerWidth < 800 && window.innerHeight <= 580) {
       const altura = window.scrollY
       if (altura > 700) {
@@ -30,13 +31,14 @@ function ButtonReservar () {
         setButton('fixed')
       }
     }
+  }
+  function positionStatic () {
     if (window.innerWidth >= 1024) {
       setButton('static')
     }
   }
-  useEffect(() => {
-    window.addEventListener('scroll', position)
-  })
+  useEventListener('scroll', positionStatic)
+  useEventListener('scroll', positionFixed)
   const [stateReserva, setReserva] = useState(false)
   return (
     <React.Fragment>

@@ -18,7 +18,7 @@ function ExcursionesContainer (props) {
               className={styles.link}
               onClick={() => window.scrollTo(0, 0)}
             >
-              <a>Ver más...</a>
+              <a> Ver más...</a>
             </Link>
           </p>
         </div>
