@@ -24,7 +24,13 @@
     "type": "git",
     "url": "git+https://github.com/francocarballar/abiagusturismo.git"
   },
-  "keywords": ["HTML", "CSS", "JavaScrip", "React", "Next"],
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScrip",
+    "React",
+    "Next"
+  ],
   "author": "Franco Carballar <francocarballar@gmail.com>",
   "license": "MIT",
   "bugs": {
