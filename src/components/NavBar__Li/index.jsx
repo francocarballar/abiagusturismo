@@ -6,8 +6,8 @@ function NavBarLi (props) {
   return (
     <React.Fragment>
       <li className={styles.li}>
-        <Link href={props.path} onClick={props.clickAncla}>
-          <a>{props.text}</a>
+        <Link href={props.path}>
+          <a onClick={props.clickAncla}>{props.text}</a>
         </Link>
       </li>
     </React.Fragment>

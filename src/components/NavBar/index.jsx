@@ -23,8 +23,9 @@ function NavBar ({ stateNavBar, setNavBar, setClose, setMenu }) {
       setNavBar(true)
     }
   }
+  let width
   useEffect(() => {
-    const width = window.innerWidth
+    width = window.innerWidth
     if (width >= 1024) {
       setNavBar(true)
     }
@@ -51,6 +52,7 @@ function NavBar ({ stateNavBar, setNavBar, setClose, setMenu }) {
               text='Excursiones'
               path='/excursiones'
               clickAncla={clickAncla}
+              id='excursiones'
             />
             <hr />
             <NavBarLi text='Combos' path='/combos' clickAncla={clickAncla} />
