@@ -1,12 +1,12 @@
 import React from 'react'
-import './ButtonWhatsApp.css'
+import styles from './ButtonWhatsApp.module.css'
 
 function ButtonWhatsApp () {
   return (
     <a
       href='https://api.whatsapp.com/send?phone=+5492614725286&text=Hola!%20Quería%20reservar%20una%20excursión!" target="_blank" data-content="https://api.whatsapp.com/send?phone=+5492614725286&text=Hola!%20Quería%20hacerte%20una%20consulta!'
       target='_blank'
-      className='button-whatsapp'
+      className={styles.button_whatsapp}
     >
       <svg
         xmlns='http://www.w3.org/2000/svg'

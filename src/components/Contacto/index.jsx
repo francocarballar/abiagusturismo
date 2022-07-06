@@ -14,7 +14,6 @@ function Contacto (props) {
   const h2 = {
     display: props.h2Display
   }
-  let color = 'var(--contact-text-color)'
   return (
     <React.Fragment>
       <section className={styles.section__contacto} style={sectionContacto}>
@@ -23,8 +22,8 @@ function Contacto (props) {
         </div>
         <div className={styles.div__contacto}>
           <div className={styles.div__container_contacto} style={divContacto}>
-            <InformacionContacto textColor={color} />
-            <RedesSocialesContacto svgColor={color} />
+            <InformacionContacto textColor={props.textColor} />
+            <RedesSocialesContacto svgColor={props.svgColor} />
           </div>
           <FormularioContacto />
         </div>

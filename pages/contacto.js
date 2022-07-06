@@ -5,6 +5,7 @@ import { Contacto } from '/src/components/Contacto/index.jsx'
 import { MapaContacto } from '/src/components/MapaContacto'
 
 export default function Servicios () {
+  const color = 'var(--contact-text-color)'
   return (
     <>
       <Head>
@@ -21,6 +22,8 @@ export default function Servicios () {
           h2Display='none'
           sectionBackground='var(--tertiary-color)'
           orderContainer__informacionContacto='2'
+          textColor={color}
+          svgColor={color}
         />
       </main>
     </>
