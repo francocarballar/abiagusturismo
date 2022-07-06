@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import styles from '../../styles/Bodegas.module.css'
-import { ExcursionesIndividuales } from '../src/components/ExcursionesIndividuales'
+import { ExcursionesIndividuales } from '../../src/components/ExcursionesIndividuales'
 
 export default function ValleDeUco () {
   const images = []
