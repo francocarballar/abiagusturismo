@@ -93,6 +93,10 @@ body.dark li {
   color: white;
 }
 
+body.dark .NavBar_nav__ul__nymfp hr {
+  border: 1px solid #212142;
+}
+
 body.dark .QuienesSomos_section__quienes_somos__sqEri {
   background-color: var(--tertiary-color);
 }

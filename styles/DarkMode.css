@@ -36,7 +36,7 @@ body.dark #theme {
 
 @media (min-width: 1024px) {
   .toggle-dark-mode {
-    top: 5px;
+    top: 8px;
     right: 0;
     z-index: 1000;
   }

@@ -33,7 +33,6 @@ function DarkMode ({ styles }) {
     const body = document.body
     if (localStorage.getItem('theme') === 'true') {
       body.classList.add('dark')
-      console.log(theme)
       document.documentElement.style.setProperty('--primary-color', '#1c1c3a')
       document.documentElement.style.setProperty('--tertiary-color', '#141429')
       document.documentElement.style.setProperty('--title-secondary', '#C5D5E4')
