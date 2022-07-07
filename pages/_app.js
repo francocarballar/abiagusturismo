@@ -30,12 +30,17 @@ function MyApp ({ Component, pageProps }) {
           href='https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:wght@400;700&display=swap'
           rel='stylesheet'
         />
-        <Script
-          strategy='lazyOnload'
-          src='https://www.googletagmanager.com/gtag/js?id=G-VFF6WRN7SM'
-        />
-        <Script strategy='lazyOnload'>
-          {`
+      </Head>
+      <Header />
+      <Component {...pageProps} />
+      <ButtonWhatsApp />
+      <Footer />
+      <Script
+        strategy='lazyOnload'
+        src='https://www.googletagmanager.com/gtag/js?id=G-VFF6WRN7SM'
+      />
+      <Script strategy='lazyOnload'>
+        {`
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
                     gtag('js', new Date());
@@ -43,12 +48,7 @@ function MyApp ({ Component, pageProps }) {
                     page_path: window.location.pathname,
                     });
                 `}
-        </Script>
-      </Head>
-      <Header />
-      <Component {...pageProps} />
-      <ButtonWhatsApp />
-      <Footer />
+      </Script>
     </>
   )
 }
