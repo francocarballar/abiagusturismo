@@ -54,14 +54,13 @@ export default function Cacheuta () {
                 <li>Tobogán corto.</li>
               </ul>
               <ul className={styles.ul}>
-                <p>Nivel superior:</p>
+                <p>Nivel inferior:</p>
                 <li>
-                  Piscinas cubiertas y descubiertas, cama de burbujas, jacuzzi,
-                  duchas y cascadas.
+                  Piscina octogonal con chorro de 10 m. De alto, río lento de
+                  270 mts. Con túnel y cascada
                 </li>
-                <li>Piscina exclusiva para adultos.</li>
-                <li>Juego interactivo para niños.</li>
-                <li>Tobogán corto.</li>
+                <li>Tobogán largo. </li>
+                <li>Vaporarium: vapor natural de agua termal.</li>
               </ul>
               <ul className={styles.ul}>
                 <p>Instalaciones:</p>
