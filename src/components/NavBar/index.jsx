@@ -40,7 +40,7 @@ function NavBar ({ stateNavBar, setNavBar, setClose, setMenu }) {
   const clickAnclaOpen = () => {
     setOpen(!open)
     arrow = {
-      transform: 'rotate(90deg)'
+      opacity: '0'
     }
     setArrow(arrow)
   }
@@ -116,13 +116,22 @@ function NavBar ({ stateNavBar, setNavBar, setClose, setMenu }) {
                   </ul>
                 )}
               </li>
-              <img
-                src='/media/icon/left-arrow.svg'
-                alt='flecha izquierda de color blanca'
-                id={styles.left_arrow}
-                onClick={clickAnclaOpen}
-                style={stateArrow}
-              />
+              {!open && (
+                <img
+                  src='/media/icon/left-arrow.svg'
+                  alt='flecha izquierda de color blanca'
+                  className={styles.left_arrow}
+                  onClick={clickAnclaOpen}
+                />
+              )}
+              {open && (
+                <img
+                  src='/media/icon/left-arrow.svg'
+                  alt='flecha izquierda de color blanca'
+                  className={styles.left_arrow__two}
+                  onClick={clickAnclaOpen}
+                />
+              )}
             </div>
             <hr />
             <NavBarLi

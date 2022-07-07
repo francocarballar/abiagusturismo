@@ -58,14 +58,20 @@ body.dark .nav__ul hr {
   border: 1px solid #262039;
 }
 
-#left_arrow {
+.container__dropdown_menu {
+  display: flex;
+}
+
+.left_arrow {
   margin: 0 5px;
   width: 15px;
   transform: rotate(-90deg);
 }
 
-.container__dropdown_menu {
-  display: flex;
+.left_arrow__two {
+  margin: 0 5px;
+  width: 15px;
+  transform: rotate(90deg);
 }
 
 .dropdown_menu {
@@ -85,6 +91,11 @@ body.dark .nav__ul hr {
   color: var(--secondary-color);
 }
 
+.dropdown_menu:active {
+  color: var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+}
+
 .dropdown_menu ul {
   display: flex;
   flex-direction: column;
@@ -94,7 +105,6 @@ body.dark .nav__ul hr {
   top: 3rem;
   margin-top: 10px;
   padding: 15px 30px;
-  width: 100%;
   list-style: none;
   background-color: var(--primary-color);
   border-radius: 15px;
