@@ -50,7 +50,7 @@ function NavBar ({ stateNavBar, setNavBar, setClose, setMenu }) {
         <nav className={styles.nav}>
           <DarkMode />
           <ul className={styles.nav__ul}>
-            <NavBarLi text='Inicio' path='/' clickAncla={clickAnclaOpen} />
+            <NavBarLi text='Inicio' path='/' clickAncla={clickAncla} />
             <hr />
             <NavBarLi
               text='¿Quiénes somos?'
