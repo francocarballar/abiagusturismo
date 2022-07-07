@@ -19,12 +19,25 @@ function MyApp ({ Component, pageProps }) {
         <meta http-equiv='X-UA-Compatible' content='IE=edge' />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <meta name='robots' content='index, follow' />
+        <meta
+          name='google-site-verification'
+          content='E-HfOz7kh6jsoypB9t256TFS-CwC32pTgRYDeLd3Sjg'
+        />
         <link rel='preconnect' href='https://fonts.googleapis.com' />
         <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
         <link
           href='https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:wght@400;700&display=swap'
           rel='stylesheet'
         />
+        <script
+          async
+          src='https://www.googletagmanager.com/gtag/js?id=G-VFF6WRN7SM'
+        ></script>
+        <script>
+          window.dataLayer = window.dataLayer || []; function gtag()
+          {dataLayer.push(arguments)}
+          gtag('js', new Date()); gtag('config', 'G-VFF6WRN7SM');
+        </script>
       </Head>
       <Header />
       <Component {...pageProps} />
