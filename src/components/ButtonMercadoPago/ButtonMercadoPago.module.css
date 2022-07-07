@@ -1,0 +1,18 @@
+.button_mercadoPago {
+  margin: 20px;
+  padding: 15px 50px;
+  color: white;
+  font-size: 1.6rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: var(--secondary-color);
+  border-radius: 1rem;
+  border-color: transparent;
+  box-shadow: 0rem 0.2rem 0.8rem 0.1rem rgb(0 0 0 / 60%);
+  text-shadow: 0.05rem 0.05rem 0.1rem black;
+  cursor: url(/media/icon/pointer.png), auto;
+}
+.button_mercadoPago:hover {
+  color: white;
+  background-color: #c25008;
+  box-shadow: none;
+}
