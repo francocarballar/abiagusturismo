@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import Script from 'next/script'
 import '../styles/globals.css'
 import '../styles/DarkMode.css'
 import { Header } from '../src/components/Header'
