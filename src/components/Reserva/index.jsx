@@ -103,7 +103,10 @@ function Reserva ({ stateReserva, setReserva }) {
                   <option value='Alta Montaña'>Alta Montaña</option>
                   <option value='Bodegas'>Bodegas</option>
                   <option value='City Tour'>City Tour</option>
-                  <option value='Cacheuta'>Cacheuta</option>
+                  <option value='Cacheuta__parque-termal'>
+                    Cacheuta (Parque termal)
+                  </option>
+                  <option value='Cacheuta__spa'>Cacheuta (Spa)</option>
                   <option value='Cañón del Atuel'>Cañón del Atuel</option>
                   <option value='Cordón del Plata'>Cordón del Plata</option>
                   <option value='Valle de Uco'>Valle de Uco</option>

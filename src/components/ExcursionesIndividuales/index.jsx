@@ -54,6 +54,11 @@ function ExcursionesIndividuales (props) {
       <div>
         <ul className={styles.ul}>{props.li}</ul>
       </div>
+      <div>
+        {props.subtitle}
+        {props.secondParagraph}
+        <ul className={styles.ul}>{props.secondLi}</ul>
+      </div>
       <ButtonReservar />
       <figure className={styles.figure__container_slider}>
         <img

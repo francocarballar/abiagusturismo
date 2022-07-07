@@ -94,7 +94,7 @@ export default function CityTour () {
               <li>Excursión de medio día.</li>
               <li>Consultar por otros días de salida.</li>
               <li>
-                <p>Precio: $ 1.599 por persona.</p>
+                <p>Precio: $ 2.199 por persona.</p>
               </li>
             </React.Fragment>
           }

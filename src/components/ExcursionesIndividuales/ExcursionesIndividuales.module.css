@@ -15,6 +15,14 @@
   text-shadow: 0.5px 0.5px 1px black;
 }
 
+.section__excursiones__individuales h3 {
+  margin: 5px;
+  padding: 5px;
+  font-size: 2.2rem;
+  text-align: start;
+  color: var(--title-secondary);
+}
+
 .section__excursiones__individuales div {
   width: 100%;
 }
@@ -142,6 +150,10 @@
 
   .section__excursiones__individuales h2 {
     font-size: var(--title-size__laptop);
+  }
+
+  .section__excursiones__individuales h3 {
+    font-size: 3.4rem;
   }
 
   .section__excursiones__individuales p {

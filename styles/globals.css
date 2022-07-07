@@ -126,3 +126,7 @@ body.dark #Villavicencio_ul__entradas__I8RSw {
 body.dark .ExcursionesContainer_section__excursiones__VsEJ9 {
   cursor: url(/media/icon/default.png), auto;
 }
+
+body.dark .ExcursionesIndividuales_ul__AOam_ p {
+  color: var(--secondary-color);
+}

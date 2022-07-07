@@ -77,7 +77,7 @@ export default function Excursiones () {
           title='CACHEUTA'
           description='En el corazón de la precordillera, relax y naturaleza en un Parque Termal con piletas de diferente temperatura, juegos para niños, turismo aventura y los beneficios del agua termal en un lugar único e inolvidable.'
           url='excursiones/cacheuta'
-          img='/media/excursiones/valle-de-uco.jpg'
+          img='/media/excursiones/cacheuta/2Cacheuta__Parque-termal.jpg'
           alt='Fotografía de las termas de cacheuta'
           displayHr='none'
         />

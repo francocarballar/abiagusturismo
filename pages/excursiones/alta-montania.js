@@ -82,7 +82,7 @@ export default function AltaMontania () {
                 niños, personas mayores. No requiere actividad física.
               </li>
               <li>
-                <p>Precio: $ 2.299 por persona.</p>
+                <p>Precio: $ 5.499 por persona.</p>
               </li>
             </React.Fragment>
           }

@@ -83,7 +83,7 @@ export default function Bodegas () {
                 transportar en las distintas compañías aéreas.
               </li>
               <li>
-                <p>Precio: $ 2.299 por persona.</p>
+                <p>Precio: $ 2.999 por persona.</p>
               </li>
             </React.Fragment>
           }
