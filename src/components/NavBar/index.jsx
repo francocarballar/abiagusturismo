@@ -34,13 +34,23 @@ function NavBar ({ stateNavBar, setNavBar, setClose, setMenu }) {
     console.log(stateWidth)
     window.addEventListener('resize', updateDimensions)
   })
+  const [open, setOpen] = useState(false)
+  let arrow = {}
+  const [stateArrow, setArrow] = useState(arrow)
+  const clickAnclaOpen = () => {
+    setOpen(!open)
+    arrow = {
+      transform: 'rotate(90deg)'
+    }
+    setArrow(arrow)
+  }
   return (
     <React.Fragment>
       {stateNavBar && (
         <nav className={styles.nav}>
           <DarkMode />
           <ul className={styles.nav__ul}>
-            <NavBarLi text='Inicio' path='/' clickAncla={clickAncla} />
+            <NavBarLi text='Inicio' path='/' clickAncla={clickAnclaOpen} />
             <hr />
             <NavBarLi
               text='¿Quiénes somos?'
@@ -48,14 +58,78 @@ function NavBar ({ stateNavBar, setNavBar, setClose, setMenu }) {
               clickAncla={clickAncla}
             />
             <hr />
-            <NavBarLi
-              text='Excursiones'
-              path='/excursiones'
-              clickAncla={clickAncla}
-              id='excursiones'
-            />
+            <div className={styles.container__dropdown_menu}>
+              <li onClick={clickAnclaOpen} className={styles.dropdown_menu}>
+                Excursiones
+                {open && (
+                  <ul>
+                    <NavBarLi
+                      text='City Tour'
+                      path='/excursiones/city-tour'
+                      clickAncla={clickAncla}
+                    />
+                    <NavBarLi
+                      text='Bodegas'
+                      path='/excursiones/bodegas'
+                      clickAncla={clickAncla}
+                    />
+                    <NavBarLi
+                      text='Caminos del vino'
+                      path='/excursiones/camino-del-vino'
+                      clickAncla={clickAncla}
+                    />
+                    <NavBarLi
+                      text='Villavicencio'
+                      path='/excursiones/villavicencio'
+                      clickAncla={clickAncla}
+                    />
+                    <NavBarLi
+                      text='Cacheuta'
+                      path='/excursiones/cacheuta'
+                      clickAncla={clickAncla}
+                    />
+                    <NavBarLi
+                      text='Alta Montaña'
+                      path='/excursiones/alta-montania'
+                      clickAncla={clickAncla}
+                    />
+                    <NavBarLi
+                      text='Valle de Uco'
+                      path='/excursiones/valle-de-uco'
+                      clickAncla={clickAncla}
+                    />
+                    <NavBarLi
+                      text='Cordón del Plata'
+                      path='/excursiones/cordon-del-plata'
+                      clickAncla={clickAncla}
+                    />
+                    <NavBarLi
+                      text='Cañón del Atuel'
+                      path='/excursiones/canion-del-atuel'
+                      clickAncla={clickAncla}
+                    />
+                    <NavBarLi
+                      text='Combos'
+                      path='/combos'
+                      clickAncla={clickAncla}
+                    />
+                  </ul>
+                )}
+              </li>
+              <img
+                src='/media/icon/left-arrow.svg'
+                alt='flecha izquierda de color blanca'
+                id={styles.left_arrow}
+                onClick={clickAnclaOpen}
+                style={stateArrow}
+              />
+            </div>
             <hr />
-            <NavBarLi text='Combos' path='/combos' clickAncla={clickAncla} />
+            <NavBarLi
+              text='Paquetes'
+              path='/paquetes'
+              clickAncla={clickAncla}
+            />
             <hr />
             <NavBarLi
               text='Servicios'
