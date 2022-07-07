@@ -5,7 +5,7 @@ import { ExcursionesIndividuales } from '../../src/components/ExcursionesIndivid
 
 export default function Cacheuta () {
   const images = []
-  images[0] = '/media/excursiones/cacheuta/1Cacheuta__Parque-termal.jpg'
+  images[0] = '/media/excursiones/cacheuta/1Cacheuta__Parque-termal.jpeg'
   images[1] = '/media/excursiones/cacheuta/2Cacheuta__Parque-termal.jpg'
   images[2] = '/media/excursiones/cacheuta/3Cacheuta__Parque-termal.jpg'
   images[3] = '/media/excursiones/cacheuta/4Cacheuta__Parque-termal.jpg'
@@ -18,7 +18,7 @@ export default function Cacheuta () {
   images[10] = '/media/excursiones/cacheuta/11Cacheuta__Parque-termal.jpg'
   images[11] = '/media/excursiones/cacheuta/12Cacheuta__Parque-termal.jpeg'
   images[12] = '/media/excursiones/cacheuta/13Cacheuta__Parque-termal.jpg'
-  images[13] = '/media/excursiones/cacheuta/14Cacheuta__Parque-termal.jpg'
+  images[13] = '/media/excursiones/cacheuta/14Cacheuta__Parque-termal.png'
   images[14] = '/media/excursiones/cacheuta/15Cacheuta__Parque-termal.jpg'
   return (
     <>
