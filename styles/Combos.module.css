@@ -1,14 +1,43 @@
 .main {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 100%;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 30px;
   width: 100%;
   height: auto;
   background-color: var(--tertiary-color);
   cursor: url(/media/icon/default__black.png), auto;
 }
 
+.container_combos {
+  display: grid;
+  grid-template-columns: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+}
+
 .figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 15px 15px;
+}
+
+.figure img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container_combos {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container_combos {
+    grid-template-columns: 33% 33% 33%;
+  }
 }
