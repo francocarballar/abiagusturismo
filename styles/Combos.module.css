@@ -31,6 +31,15 @@
   width: 100%;
 }
 
+.container_buttons {
+  display: grid;
+  grid-template-columns: 100%;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   .container_combos {
     grid-template-columns: 50% 50%;
@@ -40,5 +49,9 @@
 @media (min-width: 1024px) {
   .container_combos {
     grid-template-columns: 33% 33% 33%;
+  }
+
+  .container_buttons {
+    grid-template-columns: 50% 50%;
   }
 }

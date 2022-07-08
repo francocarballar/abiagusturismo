@@ -1,0 +1,17 @@
+.button_itinerario {
+  padding: 15px 50px;
+  color: var(--secondary-color);
+  font-size: 1.6rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  background-color: transparent;
+  border-radius: 1rem;
+  border: 3px solid var(--secondary-color);
+  cursor: url(/media/icon/pointer.png), auto;
+}
+.button_itinerario:hover {
+  color: white;
+  background-color: var(--secondary-color);
+  border: 3px solid transparent;
+  box-shadow: 0rem 0.2rem 0.8rem 0.1rem rgb(0 0 0 / 60%);
+}

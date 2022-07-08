@@ -1,20 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './ButtonItinerario.module.css'
+import { Itinerario } from '../Itinerario'
 
-function ButtonItinerario (props) {
+function ButtonItinerario ({ content }) {
   const [stateItinerario, setItinerario] = useState(false)
   return (
     <React.Fragment>
       <a
         target='_blank'
-        className={styles.button_reserva}
-        id={styles.button_whatsapp}
-        style={button}
+        className={styles.button_itinerario}
         onClick={() => setItinerario(true)}
       >
-        RESERVAR
+        Itinerario
       </a>
       <Itinerario
+        content={content}
         stateItinerario={stateItinerario}
         setItinerario={() => setItinerario(false)}
       />
