@@ -5,24 +5,36 @@ import { ExcursionesIndividuales } from '../../src/components/ExcursionesIndivid
 
 export default function AltaMontania () {
   const images = []
-  images[0] = '/media/excursiones/bodegas/vinedos-al-atardecer.jpg'
-  images[1] = '/media/excursiones/bodegas/vinedos-de-día.jpg'
-  images[2] = '/media/excursiones/bodegas/vino-y-vinedos.jpg'
+  images[0] =
+    '/media/excursiones/alta-montania/1Alta-Montaña__Tunel-potrerillos.jpg'
+  images[1] =
+    '/media/excursiones/alta-montania/2Alta-Montaña__Lago-potrerillos.jpg'
+  images[2] =
+    '/media/excursiones/alta-montania/3Alta-Montaña__Lago-potrerillos.jpg'
   images[3] =
-    '/media/excursiones/bodegas/barricas-de-vino-en-el-interior-de-la-bodega.jpg'
-  images[4] = '/media/excursiones/bodegas/barricas-de-vino.jpg'
-  images[5] = '/media/excursiones/bodegas/bodega-baudron__barricas.jpg'
-  images[6] = '/media/excursiones/bodegas/bodega-elcerno.jpg'
-  images[7] = '/media/excursiones/bodegas/bodega-cecchin.jpg'
-  images[8] = '/media/excursiones/bodegas/bodega-florio.jpeg'
-  images[9] = '/media/excursiones/bodegas/barricas-de-vino-al-exterior.jpg'
-  images[10] = '/media/excursiones/bodegas/bodega-vistandes.jpeg'
-  images[11] = '/media/excursiones/bodegas/bodega-domiciano.jpg'
-  images[12] = '/media/excursiones/bodegas/foto-aritística-del-vino.jpg'
+    '/media/excursiones/alta-montania/4Alta-Montaña__Tunel-uspallata.jpg'
+  images[4] =
+    '/media/excursiones/alta-montania/5Alta-Montaña__Pueblo-uspallata.jpg'
+  images[5] =
+    '/media/excursiones/alta-montania/6Alta-Montaña__Cerro-Montura-uspallata.jpg'
+  images[6] =
+    '/media/excursiones/alta-montania/7Alta-Montaña__Cerro-Los-Penitentes.jpg'
+  images[7] =
+    '/media/excursiones/alta-montania/8Alta-Montaña__Centro-de-ski-Los-Penitentes.jpg'
+  images[8] =
+    '/media/excursiones/alta-montania/9Alta-Montaña__Puente-del-Inca.jpg'
+  images[9] =
+    '/media/excursiones/alta-montania/10Alta-Montaña__Puente-del-Inca-nevado.jpg'
+  images[10] =
+    '/media/excursiones/alta-montania/11Alta-Montaña__cara-sur-cerro-aconcagua.webp'
+  images[11] =
+    '/media/excursiones/alta-montania/12Alta-Montaña__andinistas-Cerro-Aconcagua.jpg'
+  images[12] =
+    '/media/excursiones/alta-montania/13Alta-Montaña__arco-de-las-cuevas.jpg'
   images[13] =
-    '/media/excursiones/bodegas/uvas-copas-de-vino-y-botellas-de-vino.jpg'
-  images[14] = '/media/excursiones/bodegas/brindis.jpg'
-  images[15] = '/media/excursiones/bodegas/gente-brindando.jpg'
+    '/media/excursiones/alta-montania/14Alta-Montaña__Camino-al-Cristo-Redentor.jpg'
+  images[14] =
+    '/media/excursiones/alta-montania/15Alta-Montaña__cristo-redentor.jpg'
   return (
     <>
       <Head>
@@ -87,7 +99,7 @@ export default function AltaMontania () {
             </React.Fragment>
           }
           images={images}
-          nroImages={15}
+          nroImages={14}
         />
       </main>
     </>
