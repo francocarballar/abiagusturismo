@@ -130,3 +130,12 @@ body.dark .ExcursionesContainer_section__excursiones__VsEJ9 {
 body.dark .ExcursionesIndividuales_ul__AOam_ p {
   color: var(--secondary-color);
 }
+
+body.dark .__404_message__title__2Fx0E {
+  color: var(--dark-text-color);
+}
+
+body.dark .__404_e_nav__link__2CYZZ {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
