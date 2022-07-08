@@ -7,6 +7,7 @@
   height: 1rem;
   background-color: white;
   border-radius: 1rem;
+  cursor: url(/media/icon/pointer.png), auto;
 }
 
 body.dark .toggle-dark-mode {

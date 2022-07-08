@@ -54,8 +54,8 @@ function DarkMode ({ styles }) {
     }
   })
   return (
-    <label className='toggle-dark-mode' style={styles}>
-      <span id='theme' onClick={darkMode}></span>
+    <label className='toggle-dark-mode' style={styles} onClick={darkMode}>
+      <span id='theme'></span>
     </label>
   )
 }

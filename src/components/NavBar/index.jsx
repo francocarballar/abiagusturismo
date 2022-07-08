@@ -45,6 +45,8 @@ function NavBar ({ stateNavBar, setNavBar, setClose, setMenu }) {
       opacity: '0'
     }
     setArrow(arrow)
+    setOpenMenuPaquetes(false)
+    setOpenMenuServicios(false)
   }
   const clickAnclaPaquetes = () => {
     setOpenMenuPaquetes(!openMenuPaquetes)
@@ -52,6 +54,8 @@ function NavBar ({ stateNavBar, setNavBar, setClose, setMenu }) {
       opacity: '0'
     }
     setArrow(arrow)
+    setOpenMenuExcursiones(false)
+    setOpenMenuServicios(false)
   }
   const clickAnclaServicios = () => {
     setOpenMenuServicios(!openMenuServicios)
@@ -59,7 +63,20 @@ function NavBar ({ stateNavBar, setNavBar, setClose, setMenu }) {
       opacity: '0'
     }
     setArrow(arrow)
+    setOpenMenuPaquetes(false)
+    setOpenMenuExcursiones(false)
   }
+  // useEffect(() => {
+  //   const li = document.querySelector('.NavBarLi_li__lbwms')
+  //   document.addEventListener('click', e => {
+  //     const click = e.target
+  //     if (click !== li) {
+  //       setOpenMenuPaquetes(false)
+  //       setOpenMenuServicios(false)
+  //       setOpenMenuExcursiones(false)
+  //     }
+  //   })
+  // })
   return (
     <React.Fragment>
       {stateNavBar && (
