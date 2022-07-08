@@ -43,7 +43,6 @@ function ButtonReservar () {
   return (
     <React.Fragment>
       <a
-        target='_blank'
         className={styles.button_reserva}
         id={styles.button_whatsapp}
         style={button}
