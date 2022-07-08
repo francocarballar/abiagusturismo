@@ -8,12 +8,19 @@ function FormularioContacto (props) {
   const messageSubmit = {
     color: props.pColor
   }
+  const functionMessageSubmit = event => {
+    event.preventDefault()
+    setHandleSubmit
+    setMessage(true)
+  }
   return (
     <React.Fragment>
       <form
         method='POST'
         className={styles.formulario}
-        onSubmit={setHandleSubmit}
+        onSubmit={e => {
+          functionMessageSubmit(e)
+        }}
       >
         <label htmlFor='nombre'>
           <input
@@ -57,14 +64,17 @@ function FormularioContacto (props) {
           ></textarea>
         </label>
         <label htmlFor='enviar' className={styles.label_enviar}>
-          {stateMessage && <p id={styles.message_submit} style={messageSubmit}>¡Gracias por tu mensaje!</p>}
+          {stateMessage && (
+            <p id={styles.message_submit} style={messageSubmit}>
+              ¡Gracias por tu mensaje!
+            </p>
+          )}
           <input
             type='submit'
             id={styles.enviar}
             name='enviar'
             value='Enviar'
             disabled={stateHandleSubmit.submitting}
-            onClick={() => setMessage(true)}
           />
         </label>
       </form>
