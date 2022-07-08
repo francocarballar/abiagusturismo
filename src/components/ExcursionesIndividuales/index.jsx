@@ -19,7 +19,7 @@ function ExcursionesIndividuales (props) {
   useEffect(() => {
     clearInterval(intervalo)
     intervalo = setInterval(changeImg, 3000)
-  }, [indexImg])
+  })
   const clickRightArrow = () => {
     clearInterval(intervalo)
     if (indexImg < props.nroImages) {
