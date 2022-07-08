@@ -5,24 +5,31 @@ import { ExcursionesIndividuales } from '../../src/components/ExcursionesIndivid
 
 export default function CanonDelAtuel () {
   const images = []
-  images[0] = '/media/excursiones/bodegas/vinedos-al-atardecer.jpg'
-  images[1] = '/media/excursiones/bodegas/vinedos-de-día.jpg'
-  images[2] = '/media/excursiones/bodegas/vino-y-vinedos.jpg'
-  images[3] =
-    '/media/excursiones/bodegas/barricas-de-vino-en-el-interior-de-la-bodega.jpg'
-  images[4] = '/media/excursiones/bodegas/barricas-de-vino.jpg'
-  images[5] = '/media/excursiones/bodegas/bodega-baudron__barricas.jpg'
-  images[6] = '/media/excursiones/bodegas/bodega-elcerno.jpg'
-  images[7] = '/media/excursiones/bodegas/bodega-cecchin.jpg'
-  images[8] = '/media/excursiones/bodegas/bodega-florio.jpeg'
-  images[9] = '/media/excursiones/bodegas/barricas-de-vino-al-exterior.jpg'
-  images[10] = '/media/excursiones/bodegas/bodega-vistandes.jpeg'
-  images[11] = '/media/excursiones/bodegas/bodega-domiciano.jpg'
-  images[12] = '/media/excursiones/bodegas/foto-aritística-del-vino.jpg'
+  images[0] = '/media/excursiones/canion-del-atuel/1Cañón-del-Atuel.webp'
+  images[1] = '/media/excursiones/canion-del-atuel/2Cañón-del-Atuel.jpg'
+  images[2] = '/media/excursiones/canion-del-atuel/3Cañón-del-Atuel.jpg'
+  images[3] = '/media/excursiones/canion-del-atuel/4Cañón-del-Atuel.jpg'
+  images[4] =
+    '/media/excursiones/canion-del-atuel/5Cañón-del-Atuel__Rafting.jpg'
+  images[5] =
+    '/media/excursiones/canion-del-atuel/6Cañón-del-Atuel__Rafting-y-diversion.jpg'
+  images[6] = '/media/excursiones/canion-del-atuel/7Cañón-del-Atuel.jpg'
+  images[7] =
+    '/media/excursiones/canion-del-atuel/8Cañón-del-Atuel__catamarán.jpg'
+  images[8] =
+    '/media/excursiones/canion-del-atuel/8Cañón-del-Atuel__culriver.jpeg'
+  images[9] = '/media/excursiones/canion-del-atuel/9Cañón-del-Atuel.jpg'
+  images[10] =
+    '/media/excursiones/canion-del-atuel/10Cañón-del-Atuel__los-elefantes.jpg'
+  images[11] = '/media/excursiones/canion-del-atuel/11Cañón-del-Atuel.jpg'
+  images[12] =
+    '/media/excursiones/canion-del-atuel/12Cañón-del-Atuel__embalse-El-Nihuil.jpg'
   images[13] =
-    '/media/excursiones/bodegas/uvas-copas-de-vino-y-botellas-de-vino.jpg'
-  images[14] = '/media/excursiones/bodegas/brindis.jpg'
-  images[15] = '/media/excursiones/bodegas/gente-brindando.jpg'
+    '/media/excursiones/canion-del-atuel/13Cañón-del-Atuel__El-Nihuil_central-2.jpg'
+  images[14] =
+    '/media/excursiones/canion-del-atuel/14Cañón-del-Atuel__embalse-El-Nihuil.jpg'
+  images[15] =
+    '/media/excursiones/canion-del-atuel/15Cañón-del-Atuel__dique-Aisol.webp'
   return (
     <>
       <Head>
