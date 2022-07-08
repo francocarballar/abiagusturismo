@@ -25,8 +25,10 @@ export default function Servicios () {
       <main className={styles.main}>
         <TitleContainer title='SERVICIOS' />
         <ExcursionesContainer
-          title='TRASLADOS'
-          description='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt commodi repellat dolores perferendis corrupti illo eum praesentium ducimus eos dolorem sit, repudiandae vel, suscipit cupiditate harum? Neque placeat possimus ex?'
+          title='TRANSPORTE'
+          description='Contamos con servicios de transporte para pasajeros individuales y
+            grupos, en vehículos con capacidad para 15, 18, 24, 30, 40, y hasta
+            60 pasajeros.'
           url='traslados'
           img='/media/servicios/camioneta-turismo.png'
           alt='Camioneta de turismo'
