@@ -56,7 +56,7 @@ export default function Excursiones () {
           title='CORDÓN DEL PLATA'
           description='Circuito que bordea el imponente cordón montañoso, valle de Potrerillos y dique homónimo, ascenso por camino de caracoles desde el valle de Las Vegas, el Salto hasta Las Carreras con vista panorámica del Cerro Vallecitos. Llegando al Valle de Uco,  al departamento de Tupungato, transitamos por el corredor productivo, hasta arribar al departamento de Tunuyán, contemplamos en el Manzano Histórico el monumento Renunciamiento  Glorioso ligado a la gesta sanmartiniana.'
           url='excursiones/cordon-del-plata'
-          img='/media/excursiones/villavicencio/arbolismo-villavicencio.jpg'
+          img='/media/excursiones/cordon-del-plata/5Cordón-del-Plata__casita.jpg'
           alt='Fotografía del cordón del plata'
         />
         <ExcursionesContainer

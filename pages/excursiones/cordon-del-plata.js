@@ -5,24 +5,28 @@ import { ExcursionesIndividuales } from '../../src/components/ExcursionesIndivid
 
 export default function CordonDelPlata () {
   const images = []
-  images[0] = '/media/excursiones/bodegas/vinedos-al-atardecer.jpg'
-  images[1] = '/media/excursiones/bodegas/vinedos-de-día.jpg'
-  images[2] = '/media/excursiones/bodegas/vino-y-vinedos.jpg'
+  images[0] =
+    '/media/excursiones/cordon-del-plata/1Cordón-del-Plata__tunel-potrerillos.webp'
+  images[1] =
+    '/media/excursiones/cordon-del-plata/2Cordón-del-Plata__ruta-del-perilago.jpg'
+  images[2] =
+    '/media/excursiones/cordon-del-plata/3Cordón-del-Plata__hotel-potrerillos.jpg'
   images[3] =
-    '/media/excursiones/bodegas/barricas-de-vino-en-el-interior-de-la-bodega.jpg'
-  images[4] = '/media/excursiones/bodegas/barricas-de-vino.jpg'
-  images[5] = '/media/excursiones/bodegas/bodega-baudron__barricas.jpg'
-  images[6] = '/media/excursiones/bodegas/bodega-elcerno.jpg'
-  images[7] = '/media/excursiones/bodegas/bodega-cecchin.jpg'
-  images[8] = '/media/excursiones/bodegas/bodega-florio.jpeg'
-  images[9] = '/media/excursiones/bodegas/barricas-de-vino-al-exterior.jpg'
-  images[10] = '/media/excursiones/bodegas/bodega-vistandes.jpeg'
-  images[11] = '/media/excursiones/bodegas/bodega-domiciano.jpg'
-  images[12] = '/media/excursiones/bodegas/foto-aritística-del-vino.jpg'
-  images[13] =
-    '/media/excursiones/bodegas/uvas-copas-de-vino-y-botellas-de-vino.jpg'
-  images[14] = '/media/excursiones/bodegas/brindis.jpg'
-  images[15] = '/media/excursiones/bodegas/gente-brindando.jpg'
+    '/media/excursiones/cordon-del-plata/4Cordón-del-Plata__camino-de-las-carreras.jpg'
+  images[4] =
+    '/media/excursiones/cordon-del-plata/5Cordón-del-Plata__casita.jpg'
+  images[5] =
+    '/media/excursiones/cordon-del-plata/6Cordón-del-Plata__Cristo-Rey_Tupungato.jpg'
+  images[6] =
+    '/media/excursiones/cordon-del-plata/7Cordón-del-Plata__Cerro-Tupungato.jpg'
+  images[7] =
+    '/media/excursiones/cordon-del-plata/8Cordón-del-Plata__Bodega-Salentein.jpg'
+  images[8] =
+    '/media/excursiones/cordon-del-plata/9Cordón-del-Plata__Bodega-Rutini.jpg'
+  images[9] =
+    '/media/excursiones/cordon-del-plata/10Cordón-del-Plata__Manzano-HIstórico_Cristo.jpg'
+  images[10] =
+    '/media/excursiones/cordon-del-plata/11Cordón-del-Plata__Manzano-HIstórico.jpg'
   return (
     <>
       <Head>
@@ -105,12 +109,12 @@ export default function CordonDelPlata () {
               <li>Excursión de día completo, regresa 17:30 hs. aprox.</li>
               <li>Consultar por otros días de salida y horarios.</li>
               <li>
-                <p>Precio: $ 4.999 por persona.</p>
+                <p>Precio: $ 6.499 por persona.</p>
               </li>
             </React.Fragment>
           }
           images={images}
-          nroImages={15}
+          nroImages={10}
         />
       </main>
     </>
