@@ -85,6 +85,7 @@ body.dark .nav__ul hr {
   list-style-type: none;
   color: #fff;
   font-size: 2rem;
+  cursor: url(/media/icon/pointer.png), auto;
 }
 
 .dropdown_menu:hover {
@@ -117,6 +118,10 @@ body.dark .nav__ul hr {
   color: #fff;
   font-size: var(--font-size__laptop);
   white-space: nowrap;
+}
+
+.dropdown_menu img {
+  cursor: url(/media/icon/pointer.png), auto;
 }
 
 @media (min-width: 1024px) {
