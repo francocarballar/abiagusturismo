@@ -85,15 +85,15 @@ export default function Villavicencio () {
               <li>Importante: no incluye entrada a la reserva.</li>
               <ul id={styles.ul__entradas}>
                 Entradas:
-                <li>General Mayor $ 700,00</li>
-                <li>General Menor (de 12 a 6 años) $ 500,00</li>
-                <li>Residente mendocino $ 500,00</li>
-                <li>Reesidente mendocino menor (de12 a 6 años) $ 420,00</li>
-                <li>General Jubilado $ 480,00</li>
-                <li> Jubilado Mendocino $ 350,00</li>
+                <li>General Mayor $ 1180,00</li>
+                <li>General Menor (de 12 a 6 años) $ 650,00</li>
+                <li>Residente mendocino $ 800,00</li>
+                <li>Reesidente mendocino menor (de 12 a 6 años) $ 600,00</li>
+                <li>General Jubilado $ 800,00</li>
+                <li> Jubilado Mendocino $ 650,00</li>
               </ul>
               <li>
-                <p>Precio: $ 2.499 por persona.</p>
+                <p>Precio: $ 3.299 por persona.</p>
               </li>
             </React.Fragment>
           }

@@ -101,7 +101,7 @@ export default function CanonDelAtuel () {
                 débito.
               </li>
               <li>
-                <p>Precio: $ 4.199 por persona.</p>
+                <p>Precio: $ 6.999 por persona.</p>
               </li>
             </React.Fragment>
           }

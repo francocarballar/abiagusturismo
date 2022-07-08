@@ -66,12 +66,14 @@ body.dark .nav__ul hr {
   margin: 0 5px;
   width: 15px;
   transform: rotate(-90deg);
+  cursor: url(/media/icon/pointer.png), auto;
 }
 
 .left_arrow__two {
   margin: 0 5px;
   width: 15px;
   transform: rotate(90deg);
+  cursor: url(/media/icon/pointer.png), auto;
 }
 
 .dropdown_menu {
@@ -118,10 +120,6 @@ body.dark .nav__ul hr {
   color: #fff;
   font-size: var(--font-size__laptop);
   white-space: nowrap;
-}
-
-.dropdown_menu img {
-  cursor: url(/media/icon/pointer.png), auto;
 }
 
 @media (min-width: 1024px) {

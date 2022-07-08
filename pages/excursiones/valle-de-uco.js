@@ -93,10 +93,10 @@ export default function ValleDeUco () {
             <React.Fragment>
               <li>Salidas: martes y sábados.</li>
               <li>Hora: 08:00 hs.</li>
-              <li>Excursión de medio día, regreso 13:30 hs. aprox..</li>
+              <li>Excursión de día completo, regreso 17:30 hs. aprox..</li>
               <li>Consultar por otros días de salida y horarios.</li>
               <li>
-                <p>Precio: $ 4.199 por persona.</p>
+                <p>Precio: $ 5.499 por persona.</p>
               </li>
             </React.Fragment>
           }
