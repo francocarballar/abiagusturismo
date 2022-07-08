@@ -203,8 +203,8 @@ function NavBar ({ stateNavBar, setNavBar, setClose, setMenu }) {
                 {openMenuServicios && (
                   <ul>
                     <NavBarLi
-                      text='Traslados'
-                      path='/servicios/traslados'
+                      text='Transporte'
+                      path='/servicios/transporte'
                       clickAncla={clickAncla}
                     />
                     <NavBarLi

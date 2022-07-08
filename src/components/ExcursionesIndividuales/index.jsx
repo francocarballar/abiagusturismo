@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import styles from './ExcursionesIndividuales.module.css'
 import { useEventListener } from 'usehooks-ts'
-import { ButtonReservar } from '../ButtonReservar'
+import { ButtonCotizarServicios } from '../ButtonCotizarServicios'
 
 function ExcursionesIndividuales (props) {
   const [indexImg, setIndexImg] = useState(0)
@@ -59,7 +59,7 @@ function ExcursionesIndividuales (props) {
         {props.secondParagraph}
         <ul className={styles.ul}>{props.secondLi}</ul>
       </div>
-      <ButtonReservar />
+      <ButtonCotizarServicios />
       <figure className={styles.figure__container_slider}>
         <img
           src='/media/icon/left-arrow.svg'
