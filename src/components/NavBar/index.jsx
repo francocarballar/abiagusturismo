@@ -3,7 +3,7 @@ import styles from './NavBar.module.css'
 import { NavBarLi } from '../NavBar__Li'
 import { DarkMode } from '../DarkMode'
 
-function NavBar ({ stateNavBar, setNavBar, setClose, setMenu }) {
+function NavBar ({ stateNavBar, setNavBar, setClose, setMenu, refNavBar }) {
   let body
   useEffect(() => {
     body = document.body
@@ -87,7 +87,7 @@ function NavBar ({ stateNavBar, setNavBar, setClose, setMenu }) {
   return (
     <React.Fragment>
       {stateNavBar && (
-        <nav className={styles.nav}>
+        <nav className={styles.nav} ref={refNavBar}>
           <DarkMode />
           <ul className={styles.nav__ul}>
             <NavBarLi text='Inicio' path='/' clickAncla={clickAncla} />

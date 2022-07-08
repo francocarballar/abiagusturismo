@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import styles from './Header.module.css'
 import { NavBar } from '../NavBar'
@@ -23,6 +23,23 @@ function Header () {
   const label = {
     zIndex: -100
   }
+  function useOutsideAlerter (ref) {
+    useEffect(() => {
+      function handleClickOutside (event) {
+        if (ref.current && !ref.current.contains(event.target)) {
+          setNavBar(false)
+          setClose(false)
+          setMenu(true)
+        }
+      }
+      document.addEventListener('mousedown', handleClickOutside)
+      return () => {
+        document.removeEventListener('mousedown', handleClickOutside)
+      }
+    }, [ref])
+  }
+  const wrapperRef = useRef(null)
+  useOutsideAlerter(wrapperRef)
   return (
     <React.Fragment>
       <DarkMode styles={label} />
@@ -72,6 +89,7 @@ function Header () {
           </svg>
         )}
         <NavBar
+          refNavBar={wrapperRef}
           stateNavBar={stateNavBar}
           setNavBar={setNavBar}
           setMenu={setMenu}
