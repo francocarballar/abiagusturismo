@@ -1,0 +1,26 @@
+.main {
+  padding-bottom: 30px;
+  width: 100%;
+  height: auto;
+  background-color: var(--tertiary-color);
+  cursor: url(/media/icon/default__black.png), auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .container {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    grid-template-columns: 33% 33% 33%;
+  }
+}
