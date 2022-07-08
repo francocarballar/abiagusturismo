@@ -34,11 +34,27 @@ function NavBar ({ stateNavBar, setNavBar, setClose, setMenu }) {
     console.log(stateWidth)
     window.addEventListener('resize', updateDimensions)
   })
-  const [open, setOpen] = useState(false)
+  const [openMenuExcursiones, setOpenMenuExcursiones] = useState(false)
+  const [openMenuPaquetes, setOpenMenuPaquetes] = useState(false)
+  const [openMenuServicios, setOpenMenuServicios] = useState(false)
   let arrow = {}
   const [stateArrow, setArrow] = useState(arrow)
-  const clickAnclaOpen = () => {
-    setOpen(!open)
+  const clickAnclaExcursiones = () => {
+    setOpenMenuExcursiones(!openMenuExcursiones)
+    arrow = {
+      opacity: '0'
+    }
+    setArrow(arrow)
+  }
+  const clickAnclaPaquetes = () => {
+    setOpenMenuPaquetes(!openMenuPaquetes)
+    arrow = {
+      opacity: '0'
+    }
+    setArrow(arrow)
+  }
+  const clickAnclaServicios = () => {
+    setOpenMenuServicios(!openMenuServicios)
     arrow = {
       opacity: '0'
     }
@@ -59,9 +75,12 @@ function NavBar ({ stateNavBar, setNavBar, setClose, setMenu }) {
             />
             <hr />
             <div className={styles.container__dropdown_menu}>
-              <li onClick={clickAnclaOpen} className={styles.dropdown_menu}>
+              <li
+                onClick={clickAnclaExcursiones}
+                className={styles.dropdown_menu}
+              >
                 Excursiones
-                {open && (
+                {openMenuExcursiones && (
                   <ul>
                     <NavBarLi
                       text='City Tour'
@@ -116,35 +135,108 @@ function NavBar ({ stateNavBar, setNavBar, setClose, setMenu }) {
                   </ul>
                 )}
               </li>
-              {!open && (
+              {!openMenuExcursiones && (
                 <img
                   src='/media/icon/left-arrow.svg'
                   alt='flecha izquierda de color blanca'
                   className={styles.left_arrow}
-                  onClick={clickAnclaOpen}
+                  onClick={clickAnclaExcursiones}
                 />
               )}
-              {open && (
+              {openMenuExcursiones && (
                 <img
                   src='/media/icon/left-arrow.svg'
                   alt='flecha izquierda de color blanca'
                   className={styles.left_arrow__two}
-                  onClick={clickAnclaOpen}
+                  onClick={clickAnclaExcursiones}
                 />
               )}
             </div>
             <hr />
-            <NavBarLi
-              text='Paquetes'
-              path='/paquetes'
-              clickAncla={clickAncla}
-            />
+            <div className={styles.container__dropdown_menu}>
+              <li onClick={clickAnclaPaquetes} className={styles.dropdown_menu}>
+                Paquetes
+                {openMenuPaquetes && (
+                  <ul>
+                    <NavBarLi
+                      text='Locales'
+                      path='/paquetes/locales'
+                      clickAncla={clickAncla}
+                    />
+                    <NavBarLi
+                      text='Nacionales'
+                      path='/paquetes/nacionales'
+                      clickAncla={clickAncla}
+                    />
+                    <NavBarLi
+                      text='Internacionales'
+                      path='/paquetes/internacionales'
+                      clickAncla={clickAncla}
+                    />
+                  </ul>
+                )}
+              </li>
+              {!openMenuPaquetes && (
+                <img
+                  src='/media/icon/left-arrow.svg'
+                  alt='flecha izquierda de color blanca'
+                  className={styles.left_arrow}
+                  onClick={clickAnclaPaquetes}
+                />
+              )}
+              {openMenuPaquetes && (
+                <img
+                  src='/media/icon/left-arrow.svg'
+                  alt='flecha izquierda de color blanca'
+                  className={styles.left_arrow__two}
+                  onClick={clickAnclaPaquetes}
+                />
+              )}
+            </div>
             <hr />
-            <NavBarLi
-              text='Servicios'
-              path='/servicios'
-              clickAncla={clickAncla}
-            />
+            <div className={styles.container__dropdown_menu}>
+              <li
+                onClick={clickAnclaServicios}
+                className={styles.dropdown_menu}
+              >
+                Servicios
+                {openMenuServicios && (
+                  <ul>
+                    <NavBarLi
+                      text='Traslados'
+                      path='/servicios/traslados'
+                      clickAncla={clickAncla}
+                    />
+                    <NavBarLi
+                      text='Hoteles'
+                      path='/servicios/hoteles'
+                      clickAncla={clickAncla}
+                    />
+                    <NavBarLi
+                      text='Restaurantes'
+                      path='/servicios/restaurantes'
+                      clickAncla={clickAncla}
+                    />
+                  </ul>
+                )}
+              </li>
+              {!openMenuServicios && (
+                <img
+                  src='/media/icon/left-arrow.svg'
+                  alt='flecha izquierda de color blanca'
+                  className={styles.left_arrow}
+                  onClick={clickAnclaServicios}
+                />
+              )}
+              {openMenuServicios && (
+                <img
+                  src='/media/icon/left-arrow.svg'
+                  alt='flecha izquierda de color blanca'
+                  className={styles.left_arrow__two}
+                  onClick={clickAnclaServicios}
+                />
+              )}
+            </div>
             <hr />
             <NavBarLi
               text='Testimonios'
