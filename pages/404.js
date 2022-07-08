@@ -5,7 +5,6 @@ import Link from 'next/link'
 export default function PageNotFound () {
   return (
     <main className={styles.main}>
-      <header className='top-header'></header>
       {/*dust particel*/}
       <div>
         <div className={styles.starsec} />
