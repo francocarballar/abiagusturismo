@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import styles from './NavBar.module.css'
 import { NavBarLi } from '../NavBar__Li'
 import { DarkMode } from '../DarkMode'
@@ -67,17 +67,23 @@ function NavBar ({ stateNavBar, setNavBar, setClose, setMenu }) {
     setOpenMenuPaquetes(false)
     setOpenMenuExcursiones(false)
   }
-  // useEffect(() => {
-  //   const li = document.querySelector('.NavBarLi_li__lbwms')
-  //   document.addEventListener('click', e => {
-  //     const click = e.target
-  //     if (click !== li) {
-  //       setOpenMenuPaquetes(false)
-  //       setOpenMenuServicios(false)
-  //       setOpenMenuExcursiones(false)
-  //     }
-  //   })
-  // })
+  function useOutsideAlerter (ref) {
+    useEffect(() => {
+      function handleClickOutside (event) {
+        if (ref.current && !ref.current.contains(event.target)) {
+          setOpenMenuPaquetes(false)
+          setOpenMenuServicios(false)
+          setOpenMenuExcursiones(false)
+        }
+      }
+      document.addEventListener('mousedown', handleClickOutside)
+      return () => {
+        document.removeEventListener('mousedown', handleClickOutside)
+      }
+    }, [ref])
+  }
+  const wrapperRef = useRef(null)
+  useOutsideAlerter(wrapperRef)
   return (
     <React.Fragment>
       {stateNavBar && (
@@ -99,7 +105,7 @@ function NavBar ({ stateNavBar, setNavBar, setClose, setMenu }) {
               >
                 Excursiones
                 {openMenuExcursiones && (
-                  <ul>
+                  <ul ref={wrapperRef}>
                     <NavBarLi
                       text='City Tour'
                       path='/excursiones/city-tour'
@@ -175,7 +181,7 @@ function NavBar ({ stateNavBar, setNavBar, setClose, setMenu }) {
               <li onClick={clickAnclaPaquetes} className={styles.dropdown_menu}>
                 Paquetes
                 {openMenuPaquetes && (
-                  <ul>
+                  <ul ref={wrapperRef}>
                     <NavBarLi
                       text='Locales'
                       path='/paquetes/locales'
@@ -219,7 +225,7 @@ function NavBar ({ stateNavBar, setNavBar, setClose, setMenu }) {
               >
                 Servicios
                 {openMenuServicios && (
-                  <ul>
+                  <ul ref={wrapperRef}>
                     <NavBarLi
                       text='Transporte'
                       path='/servicios/transporte'
