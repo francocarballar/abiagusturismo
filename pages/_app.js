@@ -23,6 +23,8 @@ function MyApp ({ Component, pageProps }) {
         <meta
           name='google-site-verification'
           content='E-HfOz7kh6jsoypB9t256TFS-CwC32pTgRYDeLd3Sjg'
+          rel='preconnect'
+          defer
         />
         <link rel='preconnect' href='https://fonts.googleapis.com' />
         <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
@@ -36,10 +38,12 @@ function MyApp ({ Component, pageProps }) {
       <ButtonWhatsApp />
       <Footer />
       <Script
+        defer
+        rel='preconnect'
         strategy='lazyOnload'
         src='https://www.googletagmanager.com/gtag/js?id=G-VFF6WRN7SM'
       />
-      <Script strategy='lazyOnload'>
+      <Script defer rel='preconnect' strategy='lazyOnload'>
         {`
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
