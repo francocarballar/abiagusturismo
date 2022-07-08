@@ -13,7 +13,7 @@ function NuestraFilosofia () {
           escuchar sus opiniones o sugerencias, para que así sea.
         </p>
         <p>
-          Queremos informar, mostrar y compartir, lo bello y grandioso de
+          Queremos informar, mostrar y compartir lo bello y grandioso de
           Mendoza, Argentina y el exterior. Para disfrutar, animarse a viajar y
           tener siempre las ganas de regresar y revivir lindos momentos en
           hermosos lugares...

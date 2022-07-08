@@ -25,26 +25,22 @@ export default function QuinesSomos () {
         <TitleContainer title='¿QUIÉNES SOMOS?' />
         <section className={styles.section__quienes_somos}>
           <p>
-            Somos prestadores de servicios turisticos, con una trayectoria de
+            Somos prestadores de servicios turísticos, con una trayectoria de
             más de 30 años.
           </p>
           <p>
             Contamos con la experiencia suficiente y el personal idóneo
-            capacitado para ayudar a cumplir sus espectativas de viajes.
-            Deseamos que usted alcance su satisfacción a la hora de contratar
-            nuestros servicios, los cuales se cumpliran a traves de personal
-            administrativo y de reservas, asistentes de viajes, guías locales
-            nacionales y bilingües especializados, coordinadores, conductores,
-            servicios de transporte y hotelería que hacen a todo un equipo que
-            trabaja para usted. Logrando cristalizar sus ilusiones y necesidades
-            a la hora de viajar...
+            capacitado para ayudar a cumplir sus expectativas de viaje. Usted
+            tendrá a disposición personal administrativo y de reservas,
+            asistentes de viajes, guías locales nacionales y bilingües
+            especializados, coordinadores, servicios de transporte y hotelería.
           </p>
           <p>
             Nos dedicamos al turismo local, nacional e internacional, individual
             y grupal. Contrataciones de transporte. Servicios especiales y de
-            transporte terrestre a todo el país y paises limitrofes.
+            transporte terrestre a todo el país y paises limítrofes.
           </p>
-          <p>Coordinamos eventos educativos y deportivos...</p>
+          <p>Además coordinamos eventos educativos y deportivos.</p>
         </section>
         <section className={styles.section__informacion_personal}>
           <div className={styles.informacion_personal__eliana_moreno}>
@@ -70,15 +66,15 @@ export default function QuinesSomos () {
               operaciones, reservas, coordinación y guía de turismo.
             </p>
             <p>
-              Hoy pienso en todos estos años y el balance es muy positivo, elegí
-              ser feliz y hacer feliz en esta actividad que amo, que me llena de
-              alegrías y de satisfacciones, que me recuerda la expresión de
-              asombro, de admiración, de regocijo, de cada pasajero, cuando
-              conocen lo nuestro. Personas que vienen a cumplir un sueño, con
-              muchas expectativas y su equipaje cargado de ilusión y anhelos;
-              las que en primer momento son clientes o sólo turistas, pero que
-              comparten cada experiencia en cada paseo, se transforman así en
-              amigos que también aman lo nuestro.
+              Hoy pienso en todos estos años y el balance es muy positivo. Elegí
+              ser feliz y hacer feliz en esta actividad que amo. Atesorar la
+              expresión de asombro, de admiración, de regocijo de cada pasajero,
+              cuando conocen lo nuestro, engrandecen mi alma. Personas que
+              vienen a cumplir un sueño, con muchas expectativas y su equipaje
+              cargado de ilusión y anhelos; las que en primer momento son
+              clientes o sólo turistas, pero que comparten cada experiencia en
+              cada paseo, se transforman así en amigos que también aman lo
+              nuestro.
             </p>
             <h4>EDUCACIÓN</h4>
             <p>

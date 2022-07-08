@@ -79,8 +79,8 @@ export default function Bodegas () {
               <li>Excursión de medio día.</li>
               <li>Consultar por circuito especial día domingo.</li>
               <li>
-                Importante: consultar cantidad de vinos permitida que puede
-                transportar en las distintas compañías aéreas.
+                Nota: consulte en su compañía aérea la cantidad permitida de
+                vinos que se puede transportar.
               </li>
               <li>
                 <p>Precio: $ 2.999 por persona.</p>
