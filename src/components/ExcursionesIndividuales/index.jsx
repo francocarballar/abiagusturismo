@@ -68,6 +68,7 @@ function ExcursionesIndividuales (props) {
           onClick={clickLeftArrow}
         />
         <img
+          loading='lazy'
           src={img[0]}
           name='slider'
           alt='slider con imágenes de las excursiones'

@@ -19,42 +19,48 @@ export default function Locales () {
         <section className={styles.container_combos}>
           <figure className={styles.figure}>
             <img
-              src='/media/paquetes/locales/PROMO-1.png'
+              loading='lazy'
+              src='https://res.cloudinary.com/abiagus-turismo/image/upload/v1657403458/paquetes/locales/PROMO-1_ycxdk8.png'
               alt='Promoción número uno de las excursiones y hoteles en Mendoza'
             />
             <ButtonMercadoPago link='https://mpago.la/2HDQYiv' />
           </figure>
           <figure className={styles.figure}>
             <img
-              src='/media/paquetes/locales/PROMO-2.png'
+              loading='lazy'
+              src='https://res.cloudinary.com/abiagus-turismo/image/upload/v1657403458/paquetes/locales/PROMO-2_ok4oau.png'
               alt='Promoción número dos de las excursiones y hoteles en Mendoza'
             />
             <ButtonMercadoPago link='https://mpago.la/2uo7k89' />
           </figure>
           <figure className={styles.figure}>
             <img
-              src='/media/paquetes/locales/PROMO-3.png'
+              loading='lazy'
+              src='https://res.cloudinary.com/abiagus-turismo/image/upload/v1657403458/paquetes/locales/PROMO-3_njtjts.png'
               alt='Promoción número tres de las excursiones y hoteles en Mendoza'
             />
             <ButtonMercadoPago link='https://mpago.la/27xJHfH' />
           </figure>
           <figure className={styles.figure}>
             <img
-              src='/media/paquetes/locales/PROMO-4.png'
+              loading='lazy'
+              src='https://res.cloudinary.com/abiagus-turismo/image/upload/v1657403458/paquetes/locales/PROMO-4_aaa5bp.png'
               alt='Promoción número cuatro de las excursiones y hoteles en Mendoza'
             />
             <ButtonMercadoPago link='https://mpago.la/1NH8B8v' />
           </figure>
           <figure className={styles.figure}>
             <img
-              src='/media/paquetes/locales/PROMO-5.png'
+              loading='lazy'
+              src='https://res.cloudinary.com/abiagus-turismo/image/upload/v1657403458/paquetes/locales/PROMO-5_c4wwov.png'
               alt='Promoción número cinco de las excursiones y hoteles en Mendoza'
             />
             <ButtonMercadoPago link='https://mpago.la/1HddkM' />
           </figure>
           <figure className={styles.figure}>
             <img
-              src='/media/paquetes/locales/PROMO-6.png'
+              loading='lazy'
+              src='https://res.cloudinary.com/abiagus-turismo/image/upload/v1657403458/paquetes/locales/PROMO-6_lhzugh.png'
               alt='Promoción número seis de las excursiones y hoteles en Mendoza'
             />
             <ButtonMercadoPago link='https://mpago.la/1XgqLwT' />
