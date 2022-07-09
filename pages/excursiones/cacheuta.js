@@ -5,21 +5,36 @@ import { ExcursionesIndividuales } from '../../src/components/ExcursionesIndivid
 
 export default function Cacheuta () {
   const images = []
-  images[0] = '/media/excursiones/cacheuta/1Cacheuta__Parque-termal.jpeg'
-  images[1] = '/media/excursiones/cacheuta/2Cacheuta__Parque-termal.jpg'
-  images[2] = '/media/excursiones/cacheuta/3Cacheuta__Parque-termal.jpg'
-  images[3] = '/media/excursiones/cacheuta/4Cacheuta__Parque-termal.jpg'
-  images[4] = '/media/excursiones/cacheuta/5Cacheuta__Parque-termal.jpg'
-  images[5] = '/media/excursiones/cacheuta/6Cacheuta__Parque-termal.jpg'
-  images[6] = '/media/excursiones/cacheuta/7Cacheuta__Parque-termal.jpg'
-  images[7] = '/media/excursiones/cacheuta/8Cacheuta__Parque-termal.jpg'
-  images[8] = '/media/excursiones/cacheuta/9Cacheuta__Parque-termal.jpg'
-  images[9] = '/media/excursiones/cacheuta/10Cacheuta__Parque-termal.jpg'
-  images[10] = '/media/excursiones/cacheuta/11Cacheuta__Parque-termal.jpg'
-  images[11] = '/media/excursiones/cacheuta/12Cacheuta__Parque-termal.jpeg'
-  images[12] = '/media/excursiones/cacheuta/13Cacheuta__Parque-termal.jpg'
-  images[13] = '/media/excursiones/cacheuta/14Cacheuta__Parque-termal.png'
-  images[14] = '/media/excursiones/cacheuta/15Cacheuta__Parque-termal.jpg'
+  images[0] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400719/excursiones/cacheuta/1Cacheuta__Parque-termal_fluc7g.jpg'
+  images[1] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400719/excursiones/cacheuta/2Cacheuta__Parque-termal_l7xdrm.jpg'
+  images[2] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400720/excursiones/cacheuta/3Cacheuta__Parque-termal_qjaczj.jpg'
+  images[3] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400719/excursiones/cacheuta/4Cacheuta__Parque-termal_dtlxfz.jpg'
+  images[4] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400720/excursiones/cacheuta/5Cacheuta__Parque-termal_glsrvk.jpg'
+  images[5] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400719/excursiones/cacheuta/6Cacheuta__Parque-termal_urlcrt.jpg'
+  images[6] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400721/excursiones/cacheuta/7Cacheuta__Parque-termal_xlofng.jpg'
+  images[7] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400720/excursiones/cacheuta/8Cacheuta__Parque-termal_i5dmxn.jpg'
+  images[8] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400721/excursiones/cacheuta/9Cacheuta__Parque-termal_xxiswe.jpg'
+  images[9] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400720/excursiones/cacheuta/10Cacheuta__Parque-termal_wxztaq.jpg'
+  images[10] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400720/excursiones/cacheuta/11Cacheuta__Parque-termal_kpgax3.jpg'
+  images[11] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400720/excursiones/cacheuta/12Cacheuta__Parque-termal_yxltbe.jpg'
+  images[12] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400721/excursiones/cacheuta/13Cacheuta__Parque-termal_nstpo9.jpg'
+  images[13] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400721/excursiones/cacheuta/14Cacheuta__Parque-termal_xfq9hm.png'
+  images[14] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400722/excursiones/cacheuta/15Cacheuta__Parque-termal_m2rqtz.jpg'
   return (
     <>
       <Head>

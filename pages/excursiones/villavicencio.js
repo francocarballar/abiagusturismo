@@ -6,28 +6,37 @@ import { ExcursionesIndividuales } from '../../src/components/ExcursionesIndivid
 export default function Villavicencio () {
   const images = []
   images[0] =
-    '/media/excursiones/villavicencio/reserva-natural-villavicencio__portada.jpg'
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400690/excursiones/villavicencio/reserva-natural-villavicencio__portada_ukqvx5.jpg'
   images[1] =
-    '/media/excursiones/villavicencio/reserva-natural-villavicencio-mendoza.jpg'
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400689/excursiones/villavicencio/reserva-natural-villavicencio-mendoza_fir4lj.jpg'
   images[2] =
-    '/media/excursiones/villavicencio/reserva-natural-villavicencio.jpg'
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400689/excursiones/villavicencio/reserva-natural-villavicencio_rodige.jpg'
   images[3] =
-    '/media/excursiones/villavicencio/reserva-natural-villavicencio__nevada.jpg'
-  images[4] = '/media/excursiones/villavicencio/hotel-villavicencio.jpg'
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400690/excursiones/villavicencio/reserva-natural-villavicencio__nevada_gfdjpx.jpg'
+  images[4] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400687/excursiones/villavicencio/hotel-villavicencio_bb9epi.jpg'
   images[5] =
-    '/media/excursiones/villavicencio/hotel-villavicencio__foto-frontal.jpg'
-  images[6] = '/media/excursiones/villavicencio/guanaco.jpg'
-  images[7] = '/media/excursiones/villavicencio/león-de-montana.jpg'
-  images[8] = '/media/excursiones/villavicencio/león-de-montana__rugiendo.jpg'
-  images[9] = '/media/excursiones/villavicencio/zorro.jpg'
-  images[10] = '/media/excursiones/villavicencio/vegetación-villavicencio.jpg'
-  images[11] = '/media/excursiones/villavicencio/cascada-villavicencio.jpg'
-  images[12] = '/media/excursiones/villavicencio/arbolismo-villavicencio.jpg'
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400688/excursiones/villavicencio/hotel-villavicencio__foto-frontal_kck85o.jpg'
+  images[6] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400687/excursiones/villavicencio/guanaco_qlwx2h.jpg'
+  images[7] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400688/excursiones/villavicencio/le%C3%B3n-de-montana_jvxir3.jpg'
+  images[8] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400689/excursiones/villavicencio/le%C3%B3n-de-montana__rugiendo_ntvfmc.jpg'
+  images[9] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400690/excursiones/villavicencio/zorro_dttmo6.jpg'
+  images[10] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400690/excursiones/villavicencio/vegetaci%C3%B3n-villavicencio_uvixqo.jpg'
+  images[11] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400687/excursiones/villavicencio/cascada-villavicencio_syucal.png'
+  images[12] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400687/excursiones/villavicencio/arbolismo-villavicencio_p5ge4q.jpg'
   images[13] =
-    '/media/excursiones/villavicencio/tirolesa-nino-villavicencio.jpg'
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400690/excursiones/villavicencio/tirolesa-villavicencio_mqj4hf.jpg'
   images[14] =
-    '/media/excursiones/villavicencio/tirolesa-nino-villavicencio.jpg'
-  images[15] = '/media/excursiones/villavicencio/capilla-villavicencio.jpg'
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400690/excursiones/villavicencio/tirolesa-nino-villavicencio_x0d312.jpg'
+  images[15] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400687/excursiones/villavicencio/capilla-villavicencio_rbe7ts.jpg'
   return (
     <>
       <Head>

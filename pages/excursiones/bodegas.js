@@ -5,24 +5,38 @@ import { ExcursionesIndividuales } from '../../src/components/ExcursionesIndivid
 
 export default function Bodegas () {
   const images = []
-  images[0] = '/media/excursiones/bodegas/vinedos-al-atardecer.jpg'
-  images[1] = '/media/excursiones/bodegas/vinedos-de-día.jpg'
-  images[2] = '/media/excursiones/bodegas/vino-y-vinedos.jpg'
+  images[0] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400616/excursiones/bodegas/vinedos-al-atardecer_g7llx2.jpg'
+  images[1] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400615/excursiones/bodegas/vinedos-de-d%C3%ADa_ky2voi.jpg'
+  images[2] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400615/excursiones/bodegas/vino-y-vinedos_barslj.jpg'
   images[3] =
-    '/media/excursiones/bodegas/barricas-de-vino-en-el-interior-de-la-bodega.jpg'
-  images[4] = '/media/excursiones/bodegas/barricas-de-vino.jpg'
-  images[5] = '/media/excursiones/bodegas/bodega-baudron__barricas.jpg'
-  images[6] = '/media/excursiones/bodegas/bodega-elcerno.jpg'
-  images[7] = '/media/excursiones/bodegas/bodega-cecchin.jpg'
-  images[8] = '/media/excursiones/bodegas/bodega-florio.jpeg'
-  images[9] = '/media/excursiones/bodegas/barricas-de-vino-al-exterior.jpg'
-  images[10] = '/media/excursiones/bodegas/bodega-vistandes.jpeg'
-  images[11] = '/media/excursiones/bodegas/bodega-domiciano.jpg'
-  images[12] = '/media/excursiones/bodegas/foto-aritística-del-vino.jpg'
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400612/excursiones/bodegas/barricas-de-vino-en-el-interior-de-la-bodega_ihmvir.jpg'
+  images[4] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400612/excursiones/bodegas/barricas-de-vino_hdhq2b.jpg'
+  images[5] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400612/excursiones/bodegas/bodega-baudron__barricas_bvrqyr.jpg'
+  images[6] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400613/excursiones/bodegas/bodega-elcerno_rlverh.jpg'
+  images[7] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400612/excursiones/bodegas/bodega-cecchin_dba6dw.jpg'
+  images[8] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400613/excursiones/bodegas/bodega-florio_ib1xhj.jpg'
+  images[9] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400612/excursiones/bodegas/barricas-de-vino-al-exterior_ajvqqu.jpg'
+  images[10] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400613/excursiones/bodegas/bodega-vistandes_mwooyi.jpg'
+  images[11] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400613/excursiones/bodegas/bodega-domiciano_scriwf.jpg'
+  images[12] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400614/excursiones/bodegas/foto-arit%C3%ADstica-del-vino_mkdimg.jpg'
   images[13] =
-    '/media/excursiones/bodegas/uvas-copas-de-vino-y-botellas-de-vino.jpg'
-  images[14] = '/media/excursiones/bodegas/brindis.jpg'
-  images[15] = '/media/excursiones/bodegas/gente-brindando.jpg'
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400614/excursiones/bodegas/uvas-copas-de-vino-y-botellas-de-vino_wi8c1t.jpg'
+  images[14] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400614/excursiones/bodegas/brindis_jwxwbz.jpg'
+  images[15] =
+    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400614/excursiones/bodegas/gente-brindando_zyne3m.jpg'
   return (
     <>
       <Head>
