@@ -138,14 +138,18 @@
 }
 
 @media (min-width: 768px) {
+  .section__excursiones__individuales {
+    padding: 25px 125px;
+  }
+
   .figure__container_slider img {
-    height: 450px;
+    height: 350px;
   }
 }
 
 @media (min-width: 1024px) {
   .section__excursiones__individuales {
-    padding: 25px 150px;
+    padding: 25px 225px;
   }
 
   .section__excursiones__individuales h2 {
@@ -179,7 +183,7 @@
   }
 
   .figure__container_slider img {
-    height: 600px;
+    height: 500px;
   }
 
   #left_arrow {
