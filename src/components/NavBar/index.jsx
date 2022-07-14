@@ -9,7 +9,6 @@ function NavBar ({ stateNavBar, setNavBar, setClose, setMenu, refNavBar }) {
     body = document.body
   })
   const clickAncla = () => {
-    body.style = 'overflow-y: scroll'
     return setNavBar(false) || setClose(false) || setMenu(true)
   }
   const [stateWidth, setWindowWidth] = useState(0)

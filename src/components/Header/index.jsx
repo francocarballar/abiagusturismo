@@ -8,16 +8,10 @@ function Header () {
   const [stateNavBar, setNavBar] = useState(false)
   const [stateMenu, setMenu] = useState(true)
   const [stateClose, setClose] = useState(false)
-  let body
-  useEffect(() => {
-    body = document.body
-  })
   const clickMenu = () => {
-    body.style = 'overflow-y: hidden'
     return setNavBar(true) || setMenu(false) || setClose(true)
   }
   const clickClose = () => {
-    body.style.overflow = 'scroll'
     return setNavBar(false) || setClose(false) || setMenu(true)
   }
   const label = {
