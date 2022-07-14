@@ -31,7 +31,6 @@ function NavBar ({ stateNavBar, setNavBar, setClose, setMenu, refNavBar }) {
     }
     if (width < 1024) {
     }
-    console.log(stateWidth)
     window.addEventListener('resize', updateDimensions)
   })
   const [openMenuExcursiones, setOpenMenuExcursiones] = useState(false)

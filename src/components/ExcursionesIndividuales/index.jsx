@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import styles from './ExcursionesIndividuales.module.css'
-import { useEventListener } from 'usehooks-ts'
 import { ButtonReservar } from '../ButtonReservar'
 
 function ExcursionesIndividuales (props) {
@@ -16,9 +15,16 @@ function ExcursionesIndividuales (props) {
     document.slider.src = img[indexImg]
   }
   let intervalo
-  useEffect(() => {
+  const runInterval = () => {
     clearInterval(intervalo)
     intervalo = setInterval(changeImg, 3000)
+    return intervalo
+  }
+  useEffect(() => {
+    intervalo = setInterval(changeImg, 3000)
+    return function returnIntervalo () {
+      clearInterval(intervalo)
+    }
   })
   const clickRightArrow = () => {
     clearInterval(intervalo)
@@ -38,15 +44,6 @@ function ExcursionesIndividuales (props) {
     }
     document.slider.src = img[indexImg]
   }
-  const [stateScroll, setScroll] = useState(0)
-  const windowScroll = () => {
-    const scroll = window.scrollY
-    setScroll(scroll)
-    if (scroll < 265) {
-      clearInterval(intervalo)
-    }
-  }
-  useEventListener('scroll', windowScroll)
   return (
     <section className={styles.section__excursiones__individuales}>
       <h2>{props.title}</h2>
