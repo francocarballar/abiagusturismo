@@ -2,14 +2,15 @@ import React, { useState } from 'react'
 import styles from './ButtonItinerario.module.css'
 import { Itinerario } from '../Itinerario'
 
-function ButtonItinerario ({ content }) {
+function ButtonItinerario ({ content, path }) {
   const [stateItinerario, setItinerario] = useState(false)
   return (
     <React.Fragment>
       <a
         target='_blank'
+        href={path}
         className={styles.button_itinerario}
-        onClick={() => setItinerario(true)}
+        // onClick={() => setItinerario(true)}
       >
         Itinerario
       </a>
