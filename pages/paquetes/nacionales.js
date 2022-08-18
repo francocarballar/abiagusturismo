@@ -20,7 +20,7 @@ export default function Nacionales () {
         <section className={styles.container_combos}>
           <figure className={styles.figure}>
             <img
-              src='/media/paquetes/nacionales/Carlos-Paz.png'
+              src='https://res.cloudinary.com/abiagus-turismo/image/upload/v1660787663/paquetes/nacionales/Carlos-Paz_wmkmlr.png'
               alt='Promoción del viaje a Carlos Paz'
             />
             <div className={styles.container_buttons}>
