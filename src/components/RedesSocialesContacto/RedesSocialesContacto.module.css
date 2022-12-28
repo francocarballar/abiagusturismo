@@ -29,7 +29,7 @@
   text-decoration: none;
 }
 
-.div__social_media li a:hover > path {
+.div__social_media li a:hover>path {
   fill: var(--secondary-color);
 }
 
@@ -42,12 +42,8 @@
   transform: scale(0.9);
 }
 
-.div__social_media li svg:hover > path {
+.div__social_media li svg:hover>path {
   fill: var(--secondary-color);
-}
-
-.div__social_media path {
-  fill: white;
 }
 
 .div__social_media path:hover {

@@ -15,14 +15,26 @@
     "next": "^12.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-ga": "^3.3.1",
     "usehooks-ts": "^2.6.0"
   },
   "devDependencies": {
     "@stripe/react-stripe-js": "^1.9.0",
     "@stripe/stripe-js": "^1.32.0",
+    "@types/node": "^18.11.17",
+    "@types/react": "^18.0.26",
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
-    "standard": "^17.0.0"
+    "eslint": "^8.30.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-config-standard-with-typescript": "^24.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.31.11",
+    "standard": "^17.0.0",
+    "typescript": "^4.9.4"
   },
   "description": "Abiagus Turismo es una agencia de viajes que ofrece turismo local, nacional e internacional. Contratación de hoteles, transporte y excursiones en Mendoza, Argentia tales como: Alta Montaña, Bodegas, City Tour, Cacheuta, Valle de Uco, Villavicencio, Cañón del Atuel, y en San Rafael, Las Leñas y Los Reyunos.",
   "main": "next.config.js",

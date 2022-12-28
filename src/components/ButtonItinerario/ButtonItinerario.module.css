@@ -7,8 +7,9 @@
   background-color: transparent;
   border-radius: 1rem;
   border: 3px solid var(--secondary-color);
-  cursor: url(/media/icon/pointer.png), auto;
+  cursor: var(--pointer);
 }
+
 .button_itinerario:hover {
   color: white;
   background-color: var(--secondary-color);

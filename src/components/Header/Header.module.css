@@ -9,27 +9,30 @@
     position: relative;
 }
 
-.logo {
+.header figure {
     margin-left: 30px;
+}
+
+.logo {
     width: auto;
     height: 3.5rem;
     border-radius: 10px;
     cursor: url(/media/icon/pointer.png), auto;
 }
 
-.header svg {
+.header span {
     margin-right: 30px;
     width: 2.5rem;
     height: 2.5rem;
-    fill: white;
+    color: white;
     cursor: url(/media/icon/pointer.png), auto;
 }
 
-body.dark .header svg {
-    fill: #C5D5E4;
+html.dark .header span {
+    color: #C5D5E4;
 }
 
-.header svg:active {
+.header span:active {
     transform: scale(0.8);
 }
 

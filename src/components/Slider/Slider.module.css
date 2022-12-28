@@ -1,0 +1,89 @@
+.figure__container_slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    position: relative;
+    width: 100%;
+    height: 220px;
+}
+
+.figure__container_slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#left_arrow {
+    position: absolute;
+    left: 5px;
+    padding: 8px;
+    width: auto;
+    height: auto;
+    opacity: 0.4;
+    background-color: rgb(88 88 88 / 40%);
+    border-radius: 50%;
+    cursor: var(--pointer);
+}
+
+#left_arrow:hover {
+    opacity: 1;
+    transition: all 0.5s ease-out;
+}
+
+#right_arrow {
+    position: absolute;
+    right: 5px;
+    padding: 8px;
+    width: auto;
+    height: auto;
+    opacity: 0.4;
+    background-color: rgb(88 88 88 / 40%);
+    border-radius: 50%;
+    cursor: var(--pointer);
+}
+
+#right_arrow:hover {
+    opacity: 1;
+    transition: all 0.5s ease-out;
+}
+
+@media (min-width: 550px) {
+    .figure__container_slider {
+        height: 300px;
+    }
+}
+
+@media (min-width: 650px) {
+    .figure__container_slider {
+        height: 375px;
+    }
+}
+
+@media (min-width: 768px) {
+    .section__excursiones__individuales {
+        padding: 25px 125px;
+    }
+
+    .figure__container_slider {
+        height: 350px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .figure__container_slider {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        height: 500px;
+    }
+
+    #left_arrow {
+        width: 52px;
+        height: 52px;
+    }
+
+    #right_arrow {
+        width: 52px;
+        height: 52px;
+    }
+}
