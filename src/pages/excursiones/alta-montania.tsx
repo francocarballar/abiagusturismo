@@ -2,39 +2,12 @@ import React from 'react'
 import Head from 'next/head'
 import styles from '@src/styles/Bodegas.module.css'
 import { ExcursionesIndividuales } from '@components/ExcursionesIndividuales'
+import { altaMontania } from '@src/db'
+// import { useImage } from '@src/hooks/useImage'
 
 export default function AltaMontania () {
-  const images = []
-  images[0] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400648/excursiones/alta-monta%C3%B1a/1Alta-Monta%C3%B1a__Tunel-potrerillos_tfy5dt.jpg'
-  images[1] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400648/excursiones/alta-monta%C3%B1a/2Alta-Monta%C3%B1a__Lago-potrerillos_agjdgj.jpg'
-  images[2] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400649/excursiones/alta-monta%C3%B1a/3Alta-Monta%C3%B1a__Lago-potrerillos_nfdfng.jpg'
-  images[3] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400649/excursiones/alta-monta%C3%B1a/4Alta-Monta%C3%B1a__Tunel-uspallata_t77ww1.jpg'
-  images[4] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400648/excursiones/alta-monta%C3%B1a/5Alta-Monta%C3%B1a__Pueblo-uspallata_istyqi.jpg'
-  images[5] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400648/excursiones/alta-monta%C3%B1a/6Alta-Monta%C3%B1a__Cerro-Montura-uspallata_lawn7i.jpg'
-  images[6] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400650/excursiones/alta-monta%C3%B1a/7Alta-Monta%C3%B1a__Cerro-Los-Penitentes_ryfftv.jpg'
-  images[7] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400650/excursiones/alta-monta%C3%B1a/8Alta-Monta%C3%B1a__Centro-de-ski-Los-Penitentes_crgl6h.jpg'
-  images[8] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400650/excursiones/alta-monta%C3%B1a/9Alta-Monta%C3%B1a__Puente-del-Inca_ndk5rq.jpg'
-  images[9] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400650/excursiones/alta-monta%C3%B1a/10Alta-Monta%C3%B1a__Puente-del-Inca-nevado_x7btoj.jpg'
-  images[10] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400650/excursiones/alta-monta%C3%B1a/11Alta-Monta%C3%B1a__cara-sur-cerro-aconcagua_dcqqle.jpg'
-  images[11] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400650/excursiones/alta-monta%C3%B1a/12Alta-Monta%C3%B1a__andinistas-Cerro-Aconcagua_mmwzwu.jpg'
-  images[12] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400651/excursiones/alta-monta%C3%B1a/13Alta-Monta%C3%B1a__arco-de-las-cuevas_zvlhtd.jpg'
-  images[13] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400651/excursiones/alta-monta%C3%B1a/14Alta-Monta%C3%B1a__Camino-al-Cristo-Redentor_eyidks.jpg'
-  images[14] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400651/excursiones/alta-monta%C3%B1a/15Alta-Monta%C3%B1a__cristo-redentor_earau2.jpg'
+  // const { mobile, tablet, desktop } = useImage(excursiones)
+  // console.log('Mi array de imágenes: ', mobile)
   return (
     <>
       <Head>
@@ -98,8 +71,7 @@ export default function AltaMontania () {
               </li>
             </React.Fragment>
           }
-          images={images}
-          nroImages={14}
+          data={altaMontania}
         />
       </main>
     </>

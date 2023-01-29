@@ -28,9 +28,55 @@ export interface Client {
   nombre: string
 }
 
+export interface ImageMobile {
+  '320px'?: string
+  '375px'?: string
+  '425px'?: string
+  '505px'?: string
+}
+export interface ImageTablet {
+  '600px'?: string
+  '768px'?: string
+  '800px'?: string
+  '1024px'?: string
+}
+export interface ImageDesktop {
+  '1366px'?: string
+  '1440px'?: string
+}
+
+export interface Responsive {
+  mobile?: { img: ImageMobile }
+  tablet?: { img: ImageTablet }
+  desktop?: { img: ImageDesktop }
+}
+
+export interface Items {
+  id: number
+  responsive: Responsive[]
+  alt: string
+}
+
+export interface Combos {
+  id: number
+  responsive: Responsive[]
+  alt: string
+  'payment-link': string
+}
+export interface Packages {
+  id: number
+  responsive: Responsive[]
+  alt: string
+  'payment-link': string
+  itinerary: string
+}
+
+export interface DataCarousel {
+  data: Items[]
+}
+
 export interface TypeExcursionesIndividuales {
-  images: any[]
-  nroImages: number
+  data: Items[]
   title: string
   p: JSX.Element
   li: JSX.Element
@@ -69,4 +115,10 @@ export interface TypeExcursionesContainer {
   img: string
   alt: string
   displayHr?: string
+}
+
+export interface IconArrowType {
+  src: string
+  alt: string
+  size: number
 }

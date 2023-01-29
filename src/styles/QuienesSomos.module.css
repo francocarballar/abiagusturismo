@@ -1,6 +1,13 @@
 .section__quienes_somos {
   padding: 5px 25px 25px 25px;
+  width: 100%;
   background-color: var(--primary-color);
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 .section__quienes_somos p {
@@ -30,7 +37,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
-  padding-top: 25px;
+  padding-top: 15px;
   padding-bottom: 25px;
 }
 
@@ -147,9 +154,18 @@
   }
 
   .informacion_personal__eliana_moreno {
-    padding-top: 50px;
     padding-bottom: 50px;
     width: 50%;
+  }
+
+  .section__informacion_personal .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
   }
 
   .informacion_personal__eliana_moreno h2 {
@@ -173,19 +189,30 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 19.8rem;
+    margin-top: 16.3rem;
     width: 50%;
   }
 
   .informacion_personal__imagen_eliana_moreno figure {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .informacion_personal__imagen_eliana_moreno figure span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85% !important;
+    height: 85% !important;
   }
 
   .informacion_personal__imagen_eliana_moreno img {
     display: block;
-    width: 85%;
-    height: auto;
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 1/1;
   }
 }

@@ -7,6 +7,7 @@ function ButtonWhatsApp () {
       href='https://api.whatsapp.com/send?phone=+5492614725286&text=Hola!%20Quería%20reservar%20una%20excursión!" target="_blank" data-content="https://api.whatsapp.com/send?phone=+5492614725286&text=Hola!%20Quería%20hacerte%20una%20consulta!'
       target='_blank'
       rel='noreferrer'
+      aria-label='Botón de WhatsApp'
       className={styles.button_whatsapp}
     >
       <svg

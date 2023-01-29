@@ -2,14 +2,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px;
+  margin: 10px auto;
   margin-top: 20px;
   padding: 10px 30px;
   position: fixed;
   top: 85vh;
+  left: calc(50% - 70px);
   width: auto;
   height: 4rem;
-  border: none;
+  border: 2px solid transparent;
   border-radius: 1rem;
   font-size: var(--font-size__laptop);
   font-family: 'Roboto Condensed', sans-serif;

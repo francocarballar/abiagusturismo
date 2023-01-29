@@ -1,12 +1,11 @@
 import React from 'react'
 import styles from './ExcursionesIndividuales.module.css'
 import { ButtonReservar } from '@components/ButtonReservar'
-import { Slider } from '@components/Slider'
+import { ComponentCarousel } from '@components/ComponentCarousel'
 import { TypeExcursionesIndividuales } from '@src/types'
 
 function ExcursionesIndividuales ({
-  images,
-  nroImages,
+  data,
   title,
   p,
   li,
@@ -14,7 +13,6 @@ function ExcursionesIndividuales ({
   secondParagraph,
   secondLi
 }: TypeExcursionesIndividuales) {
-  const alt = `slider con imágenes de las excursiones de ${title}`
   return (
     <section className={styles.section__excursiones__individuales}>
       <h2>{title}</h2>
@@ -28,7 +26,9 @@ function ExcursionesIndividuales ({
         <ul className={styles.ul}>{secondLi}</ul>
       </div>
       <ButtonReservar />
-      <Slider images={images} nroImages={nroImages} alt={alt} />
+      <br />
+      <br />
+      <ComponentCarousel data={data} />
     </section>
   )
 }

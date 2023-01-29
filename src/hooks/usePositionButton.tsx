@@ -14,7 +14,6 @@ function usePositionButton (): { button: React.RefObject<HTMLButtonElement> } {
         className === 'static' ? 'fixed' : 'static'
       )
     }
-
     switch (true) {
       case width >= 1024:
         setClass('static')

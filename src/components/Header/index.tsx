@@ -18,18 +18,15 @@ function Header () {
     <>
       <header className={styles.header} id='inicio' ref={headerRef}>
         <Link href='/'>
-          <a>
-            <figure>
-              <Image
-                src='/media/logotipo/logo-abiagus.png'
-                alt='Logotipo de la empresa Abiagus Turismo'
-                width={80}
-                height={35}
-                objectFit='contain'
-                className={styles.logo}
-              />
-            </figure>
-          </a>
+          <figure>
+            <Image
+              src='/media/logotipo/logo-abiagus.png'
+              alt='Logotipo de la empresa Abiagus Turismo'
+              width={80}
+              height={35}
+              className={styles.logo}
+            />
+          </figure>
         </Link>
         {stateMenu && (
           <span className={styles.menu} onClick={clickMenu}>

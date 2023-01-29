@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { TypeSlider } from '@src/types'
 import React, { useState, useEffect, useRef } from 'react'
 import styles from './Slider.module.css'

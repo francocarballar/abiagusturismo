@@ -2,41 +2,9 @@ import React from 'react'
 import Head from 'next/head'
 import styles from '@src/styles/Bodegas.module.css'
 import { ExcursionesIndividuales } from '@components/ExcursionesIndividuales'
+import { canionDelAtuel } from '@src/db'
 
 export default function CanonDelAtuel () {
-  const images = []
-  images[0] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400788/excursiones/canion-del-atuel/1Ca%C3%B1%C3%B3n-del-Atuel_rcyfcy.webp'
-  images[1] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400787/excursiones/canion-del-atuel/2Ca%C3%B1%C3%B3n-del-Atuel_dg1fyc.jpg'
-  images[2] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400787/excursiones/canion-del-atuel/3Ca%C3%B1%C3%B3n-del-Atuel_kx7y8a.jpg'
-  images[3] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400787/excursiones/canion-del-atuel/4Ca%C3%B1%C3%B3n-del-Atuel_bcozpc.jpg'
-  images[4] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400787/excursiones/canion-del-atuel/5Ca%C3%B1%C3%B3n-del-Atuel__Rafting_zjenpy.jpg'
-  images[5] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400787/excursiones/canion-del-atuel/6Ca%C3%B1%C3%B3n-del-Atuel__Rafting-y-diversion_cigfmg.jpg'
-  images[6] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400788/excursiones/canion-del-atuel/7Ca%C3%B1%C3%B3n-del-Atuel_lfmg92.jpg'
-  images[7] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400788/excursiones/canion-del-atuel/8Ca%C3%B1%C3%B3n-del-Atuel__catamar%C3%A1n_fm2apq.jpg'
-  images[8] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400788/excursiones/canion-del-atuel/8Ca%C3%B1%C3%B3n-del-Atuel__culriver_lbfkv4.jpg'
-  images[9] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400788/excursiones/canion-del-atuel/9Ca%C3%B1%C3%B3n-del-Atuel_ec0yze.jpg'
-  images[10] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400789/excursiones/canion-del-atuel/10Ca%C3%B1%C3%B3n-del-Atuel__los-elefantes_blukjf.jpg'
-  images[11] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400789/excursiones/canion-del-atuel/11Ca%C3%B1%C3%B3n-del-Atuel_is6ssv.jpg'
-  images[12] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400789/excursiones/canion-del-atuel/12Ca%C3%B1%C3%B3n-del-Atuel__embalse-El-Nihuil_ww2st6.jpg'
-  images[13] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400789/excursiones/canion-del-atuel/13Ca%C3%B1%C3%B3n-del-Atuel__El-Nihuil_central-2_bcf5bb.jpg'
-  images[14] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400789/excursiones/canion-del-atuel/14Ca%C3%B1%C3%B3n-del-Atuel__embalse-El-Nihuil_nzdlxg.jpg'
-  images[15] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400790/excursiones/canion-del-atuel/15Ca%C3%B1%C3%B3n-del-Atuel__dique-Aisol_izsgsz.webp'
   return (
     <>
       <Head>
@@ -111,8 +79,7 @@ export default function CanonDelAtuel () {
               </li>
             </React.Fragment>
           }
-          images={images}
-          nroImages={15}
+          data={canionDelAtuel}
         />
       </main>
     </>

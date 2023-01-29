@@ -28,42 +28,42 @@ export default function Servicios () {
           <Clientes
             nombre='​R. Giraldo'
             testimonio='Esta es tu cita testimonial. Usa este espacio para compartir opiniones sobre tus productos, tus servicios o tu negocio. ¡Haz que los visitantes de tu sitio se entusiasmen por hablar contigo!'
-            img='media/personas/persona.jpg'
+            img='/media/personas/persona.jpg'
           />
           <Clientes
             nombre='​R. Giraldo'
             testimonio='Esta es tu cita testimonial. Usa este espacio para compartir opiniones sobre tus productos, tus servicios o tu negocio. ¡Haz que los visitantes de tu sitio se entusiasmen por hablar contigo!'
-            img='media/personas/persona.jpg'
+            img='/media/personas/persona.jpg'
           />
           <Clientes
             nombre='​R. Giraldo'
             testimonio='Esta es tu cita testimonial. Usa este espacio para compartir opiniones sobre tus productos, tus servicios o tu negocio. ¡Haz que los visitantes de tu sitio se entusiasmen por hablar contigo!'
-            img='media/personas/persona.jpg'
+            img='/media/personas/persona.jpg'
           />
           <Clientes
             nombre='​R. Giraldo'
             testimonio='Esta es tu cita testimonial. Usa este espacio para compartir opiniones sobre tus productos, tus servicios o tu negocio. ¡Haz que los visitantes de tu sitio se entusiasmen por hablar contigo!'
-            img='media/personas/persona.jpg'
+            img='/media/personas/persona.jpg'
           />
           <Clientes
             nombre='​R. Giraldo'
             testimonio='Esta es tu cita testimonial. Usa este espacio para compartir opiniones sobre tus productos, tus servicios o tu negocio. ¡Haz que los visitantes de tu sitio se entusiasmen por hablar contigo!'
-            img='media/personas/persona.jpg'
+            img='/media/personas/persona.jpg'
           />
           <Clientes
             nombre='​R. Giraldo'
             testimonio='Esta es tu cita testimonial. Usa este espacio para compartir opiniones sobre tus productos, tus servicios o tu negocio. ¡Haz que los visitantes de tu sitio se entusiasmen por hablar contigo!'
-            img='media/personas/persona.jpg'
+            img='/media/personas/persona.jpg'
           />
           <Clientes
             nombre='​R. Giraldo'
             testimonio='Esta es tu cita testimonial. Usa este espacio para compartir opiniones sobre tus productos, tus servicios o tu negocio. ¡Haz que los visitantes de tu sitio se entusiasmen por hablar contigo!'
-            img='media/personas/persona.jpg'
+            img='/media/personas/persona.jpg'
           />
           <Clientes
             nombre='​R. Giraldo'
             testimonio='Esta es tu cita testimonial. Usa este espacio para compartir opiniones sobre tus productos, tus servicios o tu negocio. ¡Haz que los visitantes de tu sitio se entusiasmen por hablar contigo!'
-            img='media/personas/persona.jpg'
+            img='/media/personas/persona.jpg'
           />
         </section>
       </main>

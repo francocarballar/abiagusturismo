@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './ExcursionesContainer.module.css'
 import Link from 'next/link'
 import { TypeExcursionesContainer } from '@src/types'
+import Image from 'next/image'
 
 function ExcursionesContainer ({
   title,
@@ -31,7 +32,7 @@ function ExcursionesContainer ({
           </p>
         </div>
         <figure>
-          <img src={img} alt={alt} />
+          <Image src={img} alt={alt} width={483} height={300} />
         </figure>
       </div>
       <hr style={hr} />

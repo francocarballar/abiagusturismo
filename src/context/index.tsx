@@ -16,8 +16,8 @@ const Provider = ({ children }: Children) => {
   useEffect(() => {
     const body = document.body
     width < 1024 && stateNavBar
-      ? body.classList.add('hidden')
-      : body.classList.remove('hidden')
+      ? body.classList.add('overflow-y-hidden')
+      : body.classList.remove('overflow-y-hidden')
   })
   const clickAncla = (): void => {
     if (width < 1024) {

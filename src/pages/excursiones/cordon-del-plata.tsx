@@ -2,31 +2,9 @@ import React from 'react'
 import Head from 'next/head'
 import styles from '@src/styles/Bodegas.module.css'
 import { ExcursionesIndividuales } from '@components/ExcursionesIndividuales'
+import { cordonDelPlata } from '@src/db'
 
 export default function CordonDelPlata () {
-  const images = []
-  images[0] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400752/excursiones/cordon-del-plata/1Cord%C3%B3n-del-Plata__tunel-potrerillos_v9nj6t.webp'
-  images[1] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400752/excursiones/cordon-del-plata/2Cord%C3%B3n-del-Plata__ruta-del-perilago_imup6t.jpg'
-  images[2] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400752/excursiones/cordon-del-plata/3Cord%C3%B3n-del-Plata__hotel-potrerillos_iqpmrw.jpg'
-  images[3] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400752/excursiones/cordon-del-plata/4Cord%C3%B3n-del-Plata__camino-de-las-carreras_eyhjc7.jpg'
-  images[4] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400752/excursiones/cordon-del-plata/5Cord%C3%B3n-del-Plata__casita_ibmveb.jpg'
-  images[5] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400752/excursiones/cordon-del-plata/6Cord%C3%B3n-del-Plata__Cristo-Rey_Tupungato_kzqy5z.jpg'
-  images[6] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400753/excursiones/cordon-del-plata/7Cord%C3%B3n-del-Plata__Cerro-Tupungato_of5chu.jpg'
-  images[7] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400754/excursiones/cordon-del-plata/8Cord%C3%B3n-del-Plata__Bodega-Salentein_ssujyu.jpg'
-  images[8] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400753/excursiones/cordon-del-plata/9Cord%C3%B3n-del-Plata__Bodega-Rutini_kbmyoi.jpg'
-  images[9] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400753/excursiones/cordon-del-plata/10Cord%C3%B3n-del-Plata__Manzano-HIst%C3%B3rico_Cristo_uyzh0y.jpg'
-  images[10] =
-    'https://res.cloudinary.com/abiagus-turismo/image/upload/v1657400754/excursiones/cordon-del-plata/11Cord%C3%B3n-del-Plata__Manzano-HIst%C3%B3rico_i6txlg.jpg'
   return (
     <>
       <Head>
@@ -111,8 +89,7 @@ export default function CordonDelPlata () {
               </li>
             </React.Fragment>
           }
-          images={images}
-          nroImages={10}
+          data={cordonDelPlata}
         />
       </main>
     </>

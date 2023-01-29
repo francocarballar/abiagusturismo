@@ -32,12 +32,12 @@ function NavBar () {
             <hr />
             <Submenu name='Servicios' />
             <hr />
-            <NavBarLi
+            {/* <NavBarLi
               text='Testimonios'
               path='/testimonios'
               clickAncla={clickAncla}
             />
-            <hr />
+            <hr /> */}
             <NavBarLi
               text='Contacto'
               path='/contacto'

@@ -1,18 +1,28 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import { useForm } from '@formspree/react'
 import styles from './FormularioContacto.module.css'
 
 function FormularioContacto ({ textColor }: { textColor: string }) {
   const [handleSubmit, setHandleSubmit] = useForm('mwkyrwoe')
+  const formRef = useRef(null)
   const messageSubmit = {
     color: textColor
   }
+  useEffect(() => {
+    if (handleSubmit.succeeded) {
+      formRef.current[0].value = ''
+      formRef.current[1].value = ''
+      formRef.current[2].value = ''
+      formRef.current[3].value = ''
+    }
+  }, [handleSubmit])
   return (
     <>
       <form
         method='POST'
         className={styles.formulario}
         onSubmit={setHandleSubmit}
+        ref={formRef}
       >
         <label htmlFor='nombre'>
           <input

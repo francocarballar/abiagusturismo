@@ -7,11 +7,11 @@ export const SubmenuData = () => {
   const excursiones: Submenu[] = [
     { text: 'City Tour', path: '/excursiones/city-tour', click: clickAncla },
     { text: 'Bodegas', path: '/excursiones/bodegas', click: clickAncla },
-    {
-      text: 'Caminos del vino',
-      path: '/excursiones/camino-del-vino',
-      click: clickAncla
-    },
+    // {
+    //   text: 'Caminos del vino',
+    //   path: '/excursiones/camino-del-vino',
+    //   click: clickAncla
+    // },
     {
       text: 'Villavicencio',
       path: '/excursiones/villavicencio',
@@ -52,13 +52,13 @@ export const SubmenuData = () => {
   ]
 
   const servicios: Submenu[] = [
-    { text: 'Transporte', path: '/servicios/transporte', click: clickAncla },
-    { text: 'Hoteles', path: '/servicios/hoteles', click: clickAncla },
-    {
-      text: 'Restaurantes',
-      path: '/servicios/restaurantes',
-      click: clickAncla
-    }
+    { text: 'Transporte', path: '/servicios/transporte', click: clickAncla }
+    // { text: 'Hoteles', path: '/servicios/hoteles', click: clickAncla },
+    // {
+    //   text: 'Restaurantes',
+    //   path: '/servicios/restaurantes',
+    //   click: clickAncla
+    // }
   ]
   return { excursiones, paquetes, servicios }
 }

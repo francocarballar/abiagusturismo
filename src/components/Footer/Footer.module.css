@@ -1,71 +1,84 @@
 .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100%;
-    min-height: 15rem;
-    height: auto;
-    background-color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  min-height: 15rem;
+  height: auto;
+  background-color: var(--secondary-color);
 }
 
 /* .footer a {
 
 } */
 .footer img {
-    margin: 10px;
-    width: 2.5rem;
-    height: 2.5rem;
+  margin: 10px;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .footer img:active {
-    transform: scale(0.8);
+  transform: scale(0.8);
 }
 
 .footer img::selection {
-    background-color: var(--primary-color);
+  background-color: var(--primary-color);
 }
 
 .footer p {
-    margin: 5px;
-    font-size: 2rem;
-    color: white;
-    text-shadow: 0.05rem 0.05rem 0.1rem black;
+  margin: 5px;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 0.05rem 0.05rem 0.1rem black;
 }
 
 .footer p::selection {
-    background-color: var(--primary-color);
+  background-color: var(--primary-color);
 }
 
-.footer h4 {
-    margin: 20px;
-    font-size: var(--font-size__mobile);
-    color: white;
-    text-shadow: 0.05rem 0.05rem 0.1rem black;
+.footer p a {
+  font-size: var(--font-size__mobile);
+  color: white;
+  text-shadow: 0.05rem 0.05rem 0.1rem black;
 }
 
-.footer h4::selection {
-    background-color: var(--primary-color);
+.footer p a::after {
+  content: "";
+  margin-top: 3px;
+  width: 0%;
+  height: 3px;
+  display: block;
+  background: var(--white);
+  transition: 300ms;
+}
+
+.footer p a::selection {
+  background-color: var(--primary-color);
+}
+
+.footer p a:hover::after {
+  width: 100%;
 }
 
 @media (min-width: 1024px) {
-    .footer {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
+  .footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 
-    .footer img {
-        width: 3.5rem;
-        height: 3.5rem;
-    }
+  .footer img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
 
-    .footer p {
-        font-size: 2.4rem;
-    }
+  .footer p {
+    font-size: 2.4rem;
+  }
 
-    .footer h4 {
-        font-size: var(--font-size__laptop);
-    }
+  .footer p a {
+    font-size: var(--font-size__laptop);
+  }
 }

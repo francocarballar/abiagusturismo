@@ -7,8 +7,8 @@ function NavBarLi ({ path, text, clickAncla }: PropsNavBarLi) {
   return (
     <>
       <li className={styles.li}>
-        <Link href={path}>
-          <a onClick={clickAncla}>{text}</a>
+        <Link href={path} onClick={clickAncla}>
+          {text}
         </Link>
       </li>
     </>

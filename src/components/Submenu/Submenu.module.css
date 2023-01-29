@@ -1,73 +1,71 @@
 .container__dropdown_menu {
-    display: flex;
-    gap: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  margin: 5px 10px;
 }
 
 .dropdown_menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    position: relative;
-    margin: 5px 0px;
-    margin-left: 10px;
-    list-style-type: none;
-    color: #fff;
-    font-size: 2rem;
-    cursor: url(/media/icon/pointer.png), auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  position: relative;
+  margin: 5px 0px;
+  list-style-type: none;
+  color: #fff;
+  font-size: 2rem;
+  cursor: url(/media/icon/pointer.png), auto;
 }
 
 .dropdown_menu:hover {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .dropdown_menu:active {
-    color: var(--secondary-color);
-    border-bottom: 2px solid var(--secondary-color);
+  color: var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
 }
 
 .dropdown_menu ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 3rem;
-    margin-top: 10px;
-    padding: 15px 30px;
-    padding-bottom: 15vh;
-    list-style: none;
-    background-color: var(--primary-color);
-    border-radius: 15px;
-    z-index: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 3rem;
+  margin-top: 10px;
+  padding: 15px;
+  padding-bottom: 15vh;
+  min-width: 21rem;
+  list-style: none;
+  background-color: var(--primary-color);
+  border-radius: 15px;
+  z-index: 300;
 }
 
-.dropdown_menu li {
-    margin: 10px 0;
-    padding: 0;
-    color: #fff;
-    font-size: var(--font-size__laptop);
-    white-space: nowrap;
+.container__dropdown_menu img {
+  width: 15px;
+  height: 15px;
+  cursor: url(/media/icon/pointer.png), auto;
 }
 
 .down_arrow {
-    margin: 0 5px;
-    width: 15px;
-    transform: rotate(-90deg);
-    cursor: url(/media/icon/pointer.png), auto;
+  transform: rotate(-90deg);
 }
 
 .up_arrow {
-    margin: 0 5px;
-    width: 15px;
-    transform: rotate(90deg);
-    cursor: url(/media/icon/pointer.png), auto;
+  transform: rotate(90deg);
 }
 
 @media (min-width: 1024px) {
-    .dropdown_menu ul {
-        padding-bottom: 15px;
-        width: auto;
-        box-shadow: 0rem 0.2rem 0.8rem 0.1rem rgb(0 0 0 / 60%);
-    }
+  .dropdown_menu ul {
+    padding-bottom: 15px;
+    width: auto;
+    min-width: 19rem;
+    box-shadow: 0rem 0.2rem 0.8rem 0.1rem rgb(0 0 0 / 60%);
+  }
 }

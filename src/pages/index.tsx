@@ -25,8 +25,8 @@ export default function Home () {
         <NuestraFilosofia />
         <section className={styles.section__phase}>
           <p>
-            &quot EL VINO ES MAGIA, TRABAJO Y PASIÓN, VENÍ A MENDOZA Y DESCUBRÍ
-            CUÁL ES PARA VOS &ldquo
+            &ldquo; EL VINO ES MAGIA, TRABAJO Y PASIÓN, VENÍ A MENDOZA Y
+            DESCUBRÍ CUÁL ES PARA VOS &ldquo;
           </p>
         </section>
         <Contacto

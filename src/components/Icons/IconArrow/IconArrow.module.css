@@ -1,0 +1,22 @@
+.arrow {
+  padding: 8px !important;
+  width: 40px !important;
+  max-width: fit-content;
+  height: 40px !important;
+  opacity: 0.7;
+  background-color: var(--background-elements-carousel);
+  border-radius: 50%;
+  cursor: var(--pointer);
+}
+
+.arrow:hover {
+  opacity: 1;
+  transition: all 0.5s ease-out;
+}
+
+@media(min-width: 1024px) {
+  .arrow {
+    width: 52px !important;
+    height: 52px !important;
+  }
+}

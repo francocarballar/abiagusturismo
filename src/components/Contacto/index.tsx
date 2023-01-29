@@ -24,15 +24,17 @@ function Contacto ({
   return (
     <>
       <section className={styles.section__contacto} style={sectionContacto}>
-        <div className={styles.div__contacto_title} style={h2}>
-          <h2>CONTACTO</h2>
-        </div>
-        <div className={styles.div__contacto}>
-          <div className={styles.div__container_contacto} style={divContacto}>
-            <InformacionContacto textColor={textColor} />
-            <RedesSocialesContacto color={colorSocialMedia} />
+        <div className={styles.container}>
+          <div className={styles.div__contacto_title} style={h2}>
+            <h2>CONTACTO</h2>
           </div>
-          <FormularioContacto textColor={textColor} />
+          <div className={styles.div__contacto}>
+            <div className={styles.div__container_contacto} style={divContacto}>
+              <InformacionContacto textColor={textColor} />
+              <RedesSocialesContacto color={colorSocialMedia} />
+            </div>
+            <FormularioContacto textColor={textColor} />
+          </div>
         </div>
       </section>
     </>
