@@ -1,5 +1,5 @@
 import React, { useState, createContext, useEffect } from 'react'
-import { Children } from '@src/types'
+import { type Children } from '@src/types'
 import { useWindowSize } from 'usehooks-ts'
 
 const Context = createContext<any>({})

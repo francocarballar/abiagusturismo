@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import { useForm } from '@formspree/react'
+import { useForm } from '@src/hooks/useFormspree'
 import styles from './FormularioContacto.module.css'
 
 function FormularioContacto ({ textColor }: { textColor: string }) {

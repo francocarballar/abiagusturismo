@@ -11,13 +11,13 @@ function ButtonReservar () {
       <button
         className={styles.button_reserva}
         ref={button}
-        onClick={() => setReserva(true)}
+        onClick={() => { setReserva(true) }}
       >
         RESERVAR
       </button>
       <Reserva
         stateReserva={stateReserva}
-        setReserva={() => setReserva(false)}
+        setReserva={() => { setReserva(false) }}
       />
     </>
   )

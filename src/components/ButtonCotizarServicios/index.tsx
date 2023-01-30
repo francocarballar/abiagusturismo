@@ -11,13 +11,17 @@ function ButtonCotizarServicios () {
       <button
         className={styles.button_reserva}
         ref={button}
-        onClick={() => setReserva(true)}
+        onClick={() => {
+          setReserva(true)
+        }}
       >
         COTIZAR
       </button>
       <CotizarServicios
         stateReserva={stateReserva}
-        setReserva={() => setReserva(false)}
+        setReserva={() => {
+          setReserva(false)
+        }}
       />
     </>
   )

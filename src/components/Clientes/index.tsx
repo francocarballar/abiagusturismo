@@ -1,4 +1,4 @@
-import { Client } from '@src/types'
+import { type Client } from '@src/types'
 import Image from 'next/image'
 import React from 'react'
 import styles from './Clientes.module.css'

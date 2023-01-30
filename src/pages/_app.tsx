@@ -7,7 +7,7 @@ import { Provider } from '@src/context'
 import { Header } from '@components/Header'
 import { Footer } from '@components/Footer'
 import { ButtonWhatsApp } from '@components/ButtonWhatsApp'
-import { AppProps } from 'next/app'
+import { type AppProps } from 'next/app'
 
 function MyApp ({ Component, pageProps }: AppProps) {
   useDarkMode()

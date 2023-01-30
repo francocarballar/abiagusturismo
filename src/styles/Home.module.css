@@ -1,124 +1,183 @@
 .section__main {
-    width: 100%;
-    height: 70vh;
-    background-image: url(/media/tablet/aconcagua.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  width: 100%;
+  height: 70vh;
+  background-image: url('https://res.cloudinary.com/abiagusturismo/image/upload/w_320,f_auto,c_scale,q_auto,dpr_auto,e_sharpen/v1675035947/home/aconcagua_yaupjk.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .section__main h1 {
-    font-size: 5rem;
-    font-weight: bold;
-    display: block;
-    color: var(--secondary-color);
-    text-shadow: 0.05rem 0.05rem 0.1rem black;
+  font-size: 5rem;
+  font-weight: bold;
+  display: block;
+  color: var(--secondary-color);
+  text-shadow: 0.05rem 0.05rem 0.1rem black;
 }
 
 .section__main h1::selection {
-    color: white;
-    background-color: var(--secondary-color);
+  color: white;
+  background-color: var(--secondary-color);
 }
 
 .section__main h2 {
-    font-size: var(--font-size__mobile);
-    display: block;
-    color: var(--secondary-color);
-    text-shadow: 0.05rem 0.05rem 0.1rem black;
+  font-size: var(--font-size__mobile);
+  display: block;
+  color: var(--secondary-color);
+  text-shadow: 0.05rem 0.05rem 0.1rem black;
 }
 
 .section__main h2::selection {
-    color: white;
-    background-color: var(--secondary-color);
+  color: white;
+  background-color: var(--secondary-color);
 }
 
 .section__phase {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 70vh;
-    background-image: url(/media/tablet/uvas.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
+  background-image: url('https://res.cloudinary.com/abiagusturismo/image/upload/w_320,f_auto,c_scale,q_auto,dpr_auto,e_sharpen/v1675035948/home/uvas_ixpubb.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .section__phase p {
-    padding: 5px;
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: 900;
-    line-height: 3.5rem;
-    color: white;
-    text-shadow: 0.1rem 0.1rem 0.2rem black;
-    -webkit-text-stroke: 0.05rem black;
+  padding: 5px;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 3.5rem;
+  color: white;
+  text-shadow: 0.1rem 0.1rem 0.2rem black;
+  -webkit-text-stroke: 0.05rem black;
 }
 
 .section__phase p::selection {
-    background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
+}
+
+@media (min-width: 375px) {
+  .section__main {
+    background-image: url('https://res.cloudinary.com/abiagusturismo/image/upload/w_375,f_auto,c_scale,q_auto,dpr_auto,e_sharpen/v1675035947/home/aconcagua_yaupjk.jpg');
+  }
+
+  .section__phase {
+    background-image: url('https://res.cloudinary.com/abiagusturismo/image/upload/w_375,f_auto,c_scale,q_auto,dpr_auto,e_sharpen/v1675035948/home/uvas_ixpubb.jpg');
+  }
+}
+
+@media (min-width: 425px) {
+  .section__main {
+    background-image: url('https://res.cloudinary.com/abiagusturismo/image/upload/w_425,f_auto,c_scale,q_auto,dpr_auto,e_sharpen/v1675035947/home/aconcagua_yaupjk.jpg');
+  }
+
+  .section__phase {
+    background-image: url('https://res.cloudinary.com/abiagusturismo/image/upload/w_425,f_auto,c_scale,q_auto,dpr_auto,e_sharpen/v1675035948/home/uvas_ixpubb.jpg');
+  }
+}
+
+@media (min-width: 505px) {
+  .section__main {
+    background-image: url('https://res.cloudinary.com/abiagusturismo/image/upload/w_505,f_auto,c_scale,q_auto,dpr_auto,e_sharpen/v1675035947/home/aconcagua_yaupjk.jpg');
+  }
+
+  .section__phase {
+    background-image: url('https://res.cloudinary.com/abiagusturismo/image/upload/w_505,f_auto,c_scale,q_auto,dpr_auto,e_sharpen/v1675035948/home/uvas_ixpubb.jpg');
+  }
+}
+
+@media (min-width: 600px) {
+  .section__main {
+    background-image: url('https://res.cloudinary.com/abiagusturismo/image/upload/w_600,f_auto,c_scale,q_auto,dpr_auto,e_sharpen/v1675035947/home/aconcagua_yaupjk.jpg');
+  }
+
+  .section__phase {
+    background-image: url('https://res.cloudinary.com/abiagusturismo/image/upload/w_600,f_auto,c_scale,q_auto,dpr_auto,e_sharpen/v1675035948/home/uvas_ixpubb.jpg');
+  }
+}
+
+@media (min-width: 768px) {
+  .section__main {
+    background-image: url('https://res.cloudinary.com/abiagusturismo/image/upload/w_768,f_auto,c_scale,q_auto,dpr_auto,e_sharpen/v1675035947/home/aconcagua_yaupjk.jpg');
+  }
+
+  .section__phase {
+    background-image: url('https://res.cloudinary.com/abiagusturismo/image/upload/w_768,f_auto,c_scale,q_auto,dpr_auto,e_sharpen/v1675035948/home/uvas_ixpubb.jpg');
+  }
+}
+
+@media (min-width: 800px) {
+  .section__main {
+    background-image: url('https://res.cloudinary.com/abiagusturismo/image/upload/w_800,f_auto,c_scale,q_auto,dpr_auto,e_sharpen/v1675035947/home/aconcagua_yaupjk.jpg');
+  }
+
+  .section__phase {
+    background-image: url('https://res.cloudinary.com/abiagusturismo/image/upload/w_800,f_auto,c_scale,q_auto,dpr_auto,e_sharpen/v1675035948/home/uvas_ixpubb.jpg');
+  }
 }
 
 @media (min-width: 1024px) {
+  .section__main {
+    height: calc(100vh - 10rem);
+    background-image: url('https://res.cloudinary.com/abiagusturismo/image/upload/w_1024,f_auto,c_scale,q_auto,dpr_auto,e_sharpen/v1675035947/home/aconcagua_eztooq.jpg');
+  }
 
-    .section__main {
-        height: calc(100vh - 10rem);
-        background-image: url(/media/laptop-small/aconcagua.jpg);
-    }
+  .section__main h1 {
+    font-size: 8.8rem;
+  }
 
-    .section__main h1 {
-        font-size: 8.8rem;
-    }
+  .section__main h2 {
+    font-size: 2.4rem;
+  }
 
-    .section__main h2 {
-        font-size: 2.4rem;
-    }
+  .section__phase {
+    height: 85vh;
+    background-image: url('https://res.cloudinary.com/abiagusturismo/image/upload/w_1024,f_auto,c_scale,q_auto,dpr_auto,e_sharpen/v1675035948/home/uvas_pf3wjo.jpg');
+  }
 
-    .section__phase {
-        height: 85vh;
-        background-image: url(/media/laptop-small/uvas.jpg);
-    }
-
-    .section__phase p {
-        margin: 2.5px;
-        padding: 75px;
-        font-size: 4.2rem;
-        line-height: 5rem;
-    }
+  .section__phase p {
+    margin: 2.5px;
+    padding: 75px;
+    font-size: 4.2rem;
+    line-height: 5rem;
+  }
 }
 
 @media (min-width: 1336px) {
-    .section__main {
-        background-image: url(/media/laptop-medium/aconcagua.jpg);
-    }
+  .section__main {
+    background-image: url('https://res.cloudinary.com/abiagusturismo/image/upload/w_1366,f_auto,c_scale,q_auto,dpr_auto,e_sharpen/v1675035947/home/aconcagua_eztooq.jpg');
+  }
 
-    .section__phase {
-        background-image: url(/media/laptop-medium/uvas.jpg);
-    }
+  .section__phase {
+    background-image: url('https://res.cloudinary.com/abiagusturismo/image/upload/w_1366,f_auto,c_scale,q_auto,dpr_auto,e_sharpen/v1675035948/home/uvas_pf3wjo.jpg');
+  }
 }
 
 @media (min-width: 1440px) {
-    .section__main {
-        background-image: url(/media/laptop-large/aconcagua.jpg);
-    }
+  .section__main {
+    background-image: url('https://res.cloudinary.com/abiagusturismo/image/upload/w_1440,f_auto,c_scale,q_auto,dpr_auto,e_sharpen/v1675035947/home/aconcagua_eztooq.jpg');
+  }
 
-    .section__phase {
-        background-image: url(/media/laptop-large/uvas.jpg);
-    }
+  .section__phase {
+    background-image: url('https://res.cloudinary.com/abiagusturismo/image/upload/w_1440,f_auto,c_scale,q_auto,dpr_auto,e_sharpen/v1675035948/home/uvas_pf3wjo.jpg');
+  }
 }
 
 @media (min-width: 1920px) {
-    .section__main {
-        background-image: url(/media/desktop/aconcagua.jpg);
-    }
+  .section__main {
+    background-image: url('https://res.cloudinary.com/abiagusturismo/image/upload/w_1920,f_auto,c_scale,q_auto,dpr_auto,e_sharpen/v1675035947/home/aconcagua_eztooq.jpg');
+  }
 
-    .section__phase {
-        background-image: url(/media/desktop/aconcagua.jpg);
-    }
+  .section__phase {
+    background-image: url('https://res.cloudinary.com/abiagusturismo/image/upload/w_1920,f_auto,c_scale,q_auto,dpr_auto,e_sharpen/v1675035948/home/uvas_pf3wjo.jpg');
+  }
 }

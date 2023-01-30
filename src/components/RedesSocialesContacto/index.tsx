@@ -4,7 +4,7 @@ import { IconFacebook } from '@components/Icons/IconFacebook'
 import { IconInstagram } from '@components/Icons/IconInstagram'
 import { IconWhatsapp } from '@components/Icons/IconWhatsapp'
 import { IconLinkedin } from '@components/Icons/IconLinkedin'
-import { SocialMedia } from '@src/types'
+import { type SocialMedia } from '@src/types'
 
 function RedesSocialesContacto ({ color }: SocialMedia) {
   return (

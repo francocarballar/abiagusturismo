@@ -1,6 +1,6 @@
-import { BtnMP } from '@src/types'
 import React from 'react'
 import styles from './ButtonMercadoPago.module.css'
+import { type BtnMP } from '@src/types'
 
 function ButtonMercadoPago ({ link }: BtnMP) {
   return (

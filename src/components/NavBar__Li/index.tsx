@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import styles from './NavBarLi.module.css'
-import { PropsNavBarLi } from '@src/types'
+import { type PropsNavBarLi } from '@src/types'
 
 function NavBarLi ({ path, text, clickAncla }: PropsNavBarLi) {
   return (

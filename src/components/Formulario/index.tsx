@@ -59,7 +59,7 @@ function Formulario () {
           shadow={true}
           sizing='lg'
           className='sm:text-3xl'
-          onChange={e => setImage(e.target.value)}
+          onChange={e => { setImage(e.target.value) }}
         />
       </div>
       <div>
@@ -75,7 +75,7 @@ function Formulario () {
           // sizing='lg'
           rows={10}
           className='sm:text-3xl'
-          onChange={e => setAlt(e.target.value)}
+          onChange={e => { setAlt(e.target.value) }}
         />
       </div>
       <div className='flex items-center gap-2 sm:text-3xl'></div>

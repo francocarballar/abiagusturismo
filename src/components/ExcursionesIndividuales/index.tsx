@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './ExcursionesIndividuales.module.css'
 import { ButtonReservar } from '@components/ButtonReservar'
 import { ComponentCarousel } from '@components/ComponentCarousel'
-import { TypeExcursionesIndividuales } from '@src/types'
+import { type TypeExcursionesIndividuales } from '@src/types'
 
 function ExcursionesIndividuales ({
   data,

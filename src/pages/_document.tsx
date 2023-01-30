@@ -13,12 +13,13 @@ export default function Document () {
         <link
           rel='preconnect'
           href='https://fonts.gstatic.com'
-          crossOrigin='credentials'
+          crossOrigin=''
         />
         <link
           rel='stylesheet'
           href='https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:wght@400;700&display=swap'
         />
+        <link rel='preconnect' href='https://res.cloudinary.com/' />
       </Head>
       <body>
         <Main />

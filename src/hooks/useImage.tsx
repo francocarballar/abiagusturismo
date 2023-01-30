@@ -1,4 +1,4 @@
-import { Items } from '@src/types'
+import { type Items } from '@src/types'
 
 function useImage (items: Items[]) {
   const data = items.map(item => item)

@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import { Carousel } from 'flowbite-react'
 import { useWindowSize } from 'usehooks-ts'
-import { DataCarousel } from '@src/types'
+import { type DataCarousel } from '@src/types'
 import { IconArrow } from '@components/Icons/IconArrow'
 
 function ComponentCarousel ({ data }: DataCarousel) {

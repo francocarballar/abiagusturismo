@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { Submenu } from '@src/types'
+import { type Submenu } from '@src/types'
 import { Context } from '@src/context'
 
 export const SubmenuData = () => {

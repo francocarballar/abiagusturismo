@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Reserva.module.css'
 import { useForm } from '@formspree/react'
-import { formReserva } from '@src/types'
+import { type formReserva } from '@src/types'
 import { CloseMenu } from '@components/Icons/CloseMenu'
 
 function Reserva ({ stateReserva, setReserva }: formReserva) {

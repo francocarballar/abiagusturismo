@@ -1,4 +1,4 @@
-import { Items, Combos, Packages } from '@src/types'
+import { type Items, type Combos, type Packages } from '@src/types'
 
 export const cityTour: Items[] = [
   {

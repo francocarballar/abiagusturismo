@@ -3,7 +3,7 @@ import styles from './Contacto.module.css'
 import { InformacionContacto } from '../InformacionContacto'
 import { RedesSocialesContacto } from '../RedesSocialesContacto'
 import { FormularioContacto } from '../FormularioContacto'
-import { Contact } from '@src/types'
+import { type Contact } from '@src/types'
 
 function Contacto ({
   sectionBackground,

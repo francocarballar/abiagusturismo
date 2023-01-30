@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './ButtonItinerario.module.css'
-import { BtnItinerario } from '@src/types'
+import { type BtnItinerario } from '@src/types'
 
 function ButtonItinerario ({ path }: BtnItinerario) {
   return (
